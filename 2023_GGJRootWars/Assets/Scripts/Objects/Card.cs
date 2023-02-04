@@ -6,7 +6,12 @@ using TMPro;
 using UnityEngine.EventSystems;
 
 [System.Serializable]
-public class Card : MonoBehaviour, IPointerEnterHandler , IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
+public class Card : MonoBehaviour,
+    IPointerEnterHandler,
+    IPointerExitHandler,
+    IPointerDownHandler,
+    IPointerUpHandler,
+    IDragHandler
 {
     public enum CardType
     {
@@ -17,6 +22,7 @@ public class Card : MonoBehaviour, IPointerEnterHandler , IPointerExitHandler, I
     public CardType cardType;
     public Sprite picture;
 
+    Vector3 originalPosition;
     int ownerID;
     //public Sprite cardOutline;
 
@@ -48,10 +54,18 @@ public class Card : MonoBehaviour, IPointerEnterHandler , IPointerExitHandler, I
     public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("OnMouseDrag");
+        originalPosition = transform.position;
+        // TODO Reparent for sorting ?
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
         Debug.Log("OnMouseUp");
+        transform.position = originalPosition;
+    }
+    public void OnDrag(PointerEventData eventData)
+    {
+        Debug.Log("OnDrag");
+        transform.position = eventData.position;
     }
 }

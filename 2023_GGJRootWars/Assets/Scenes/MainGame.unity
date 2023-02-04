@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 1058539754}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -588,6 +588,9 @@ MonoBehaviour:
   countCard: 3
   handLaneCount: 3
   handModCount: 3
+  spaceBetweenCard: 0.1
+  laneDeck: []
+  modDeck: []
 --- !u!114 &1877816235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -613,4 +616,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ffa019dcdfb7b4a82c1e3dafc6202d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 2928912520086878588, guid: fdaead1b18ac9ae4ca8727981d411028, type: 3}
+  players: []
+  playerPrefab: {fileID: 932273227744058992, guid: fdaead1b18ac9ae4ca8727981d411028, type: 3}

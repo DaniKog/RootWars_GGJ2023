@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1734889745195165866}
   - component: {fileID: 560712243642582344}
   m_Layer: 5
-  m_Name: Card_Lane_Bass
+  m_Name: Card_Mod_PlusInPlay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -832, y: -412}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1734889745195165866
@@ -59,8 +59,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59446739419e56542b397dc716361735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardName: Bass
-  tooltip: BassTooltip
+  cardName: Plus1InPlay
+  tooltip: Plus1InPlayTooltip
+  cardType: 1
   picture: {fileID: 7482667652216324306, guid: 6593545973394da469c8ed3d63617bb5, type: 3}
 --- !u!1 &4328914821486130560
 GameObject:
