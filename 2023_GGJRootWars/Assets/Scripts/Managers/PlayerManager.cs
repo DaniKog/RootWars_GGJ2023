@@ -12,15 +12,15 @@ public class PlayerManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        CanvasObject = GameObject.FindGameObjectWithTag("Canvas");
+        AddPlayer();
+        AddPlayer();
     }
     private void Start()
     {
-        CanvasObject = GameObject.FindGameObjectWithTag("Canvas");
-        AddPlayer(0);
-        GameManager.instance.StartTurn(0);
-
+        
     }
-    void AddPlayer(int playerID)
+    int AddPlayer()
     {
         GameObject playerobj = Instantiate(playerPrefab);
         playerobj.transform.SetParent(CanvasObject.transform);
@@ -30,10 +30,55 @@ public class PlayerManager : MonoBehaviour
         //rectTransform.position = new Vector2(0, 0);
         rectTransform.anchoredPosition = new Vector2(0, -((Screen.height / 2) * 0.75f ));
         Player player = playerobj.GetComponent<Player>();
-        player.ID = playerID;
-        player.modDeck = CardManager.instance.modDeck;
-        player.laneDeck = CardManager.instance.laneDeck;
+        int playerId = GameManager.instance.GetNextPlayerID();
+        Color playerColor = GameManager.instance.GetPlayerColor();
+        player.Id = playerId;
+        player.playerColor = playerColor;
+        player.modDeck = new List<Card>(CardManager.instance.GetModDeck());
+        player.laneDeck = new List<Card>(CardManager.instance.GetLaneDeck());
         players.Add(player);
+        GameManager.instance.SetupPlayer(playerId);
+        return playerId;
     }
-    
+    public Color GetPlayerColor(int playerID)
+    {
+        foreach (Player player in players)
+        {
+            if (player.Id == playerID)
+            {
+                return player.playerColor;
+            }
+        }
+        return Color.black;
+    }
+    public Player GetPlayerByID(int id)
+    {
+        foreach (Player player in players)
+        {
+            if (player.Id == id)
+            {
+                return player;
+            }
+        }
+        return null;
+    }
+    public int GetOtherPlayerId(int id)
+    {
+        foreach (Player player in players)
+        {
+            if (player.Id != id)
+            {
+                return player.Id;
+            }
+        }
+        return -1;
+    }
+    public void RedrawPlayerDecks()
+    {
+        foreach (Player player in players)
+        {
+            player.modDeck = new List<Card>(CardManager.instance.GetModDeck());
+            player.laneDeck = new List<Card>(CardManager.instance.GetLaneDeck());
+        }
+    }
 }

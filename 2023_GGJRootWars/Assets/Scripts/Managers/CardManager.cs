@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
+using TMPro;
 using UnityEngine;
 
 public class CardManager : MonoBehaviour
@@ -12,11 +14,10 @@ public class CardManager : MonoBehaviour
     public int handLaneCount = 3; // the count of each lane card in hand
     public int handModCount = 3; // the count of each mod card in hand
     public float spaceBetweenCard = 0.1f;
-
     //Internal
     Card[] cards;
-    public List<Card> laneDeck = new List<Card>();
-    public List<Card> modDeck = new List<Card>();
+    List<Card> laneDeck = new List<Card>();
+    List<Card> modDeck = new List<Card>();
 
     // Start is called before the first frame update
     void Awake()
@@ -26,7 +27,7 @@ public class CardManager : MonoBehaviour
         cards = Resources.FindObjectsOfTypeAll<Card>();
         foreach (Card card in cards)
         {
-            if(card.cardType == Card.CardType.Lane)
+            if (card.cardType == Card.CardType.Lane)
             {
                 for (int i = 0; i < countCard; i++)
                 {
@@ -54,45 +55,47 @@ public class CardManager : MonoBehaviour
 
         for (int i = 0; i < CardManager.instance.handModCount; i++)
         {
-            DrawCard(player, Card.CardType.Lane);
+            DrawCard(player, Card.CardType.Mod);
         }
 
         UpdateHand(player);
+        player.HideHand();
     }
 
     void DrawCard(Player player, Card.CardType cardtype)
     {
-        int randomNumber = UnityEngine.Random.Range(0, player.laneDeck.Count);
+        int randomNumber = UnityEngine.Random.Range(0, player.laneDeck.Count-1);
         if (cardtype == Card.CardType.Lane)
         {
             Card card = player.laneDeck[randomNumber];
-            
-            Card gameObject = Instantiate(card);
-            gameObject.transform.SetParent(player.transform);
-            RectTransform rectTransform = gameObject.GetComponent<RectTransform>();
+
+            Card playerCard = Instantiate(card);
+            playerCard.transform.SetParent(player.transform);
+            RectTransform rectTransform = playerCard.GetComponent<RectTransform>();
             rectTransform.anchoredPosition = Vector2.zero;
-            player.hand.Add(gameObject);
+            playerCard.ownerID = player.Id;
+            player.hand.Add(playerCard);
             player.laneDeck.RemoveAt(randomNumber);
         }
 
-        if (cardtype == Card.CardType.Mod) 
+        if (cardtype == Card.CardType.Mod)
         {
-            Card card = player.laneDeck[randomNumber];
-            
-            Card gameObject = Instantiate(card);
-            gameObject.transform.SetParent(player.transform);
-            RectTransform rectTransform = gameObject.GetComponent<RectTransform>();
+            Card card = player.modDeck[randomNumber];
+
+            Card playerCard = Instantiate(card);
+            playerCard.transform.SetParent(player.transform);
+            RectTransform rectTransform = playerCard.GetComponent<RectTransform>();
             rectTransform.anchoredPosition = Vector2.zero;
-            player.hand.Add(gameObject);
+            player.hand.Add(playerCard);
             player.laneDeck.RemoveAt(randomNumber);
         }
         else
         {
-           //ASSERT
+            //ASSERT
         }
     }
 
-    void UpdateHand(Player player)
+    public void UpdateHand(Player player)
     {
         int handsize = player.hand.Count;
         //TODO Fix this seems scary
@@ -108,5 +111,43 @@ public class CardManager : MonoBehaviour
             rectTransform.anchoredPosition = new Vector2(handX, 0);
             handX += cardWidthWithSpace;
         }
+    }
+    public void PlayedCard(Card card, LaneSide landSide)
+    {
+        //TODO add mods
+        if (card.cardType == Card.CardType.Lane)
+        {
+            landSide.IncreaceCurrentSlot();
+            DiscardCard(card);
+        }
+    }
+
+    private void DiscardCard(Card card)
+    {
+        Player player = PlayerManager.instance.GetPlayerByID(card.ownerID);
+        player.hand.Remove(card);
+        Destroy(card.gameObject);
+        if (player.hand.Count > 0)
+        {
+            UpdateHand(player);
+        }
+    }
+    public void DiscardCardHand(int playerId)
+    {
+        Player player = PlayerManager.instance.GetPlayerByID(playerId);
+        while (player.hand.Count > 0)
+        {
+            DiscardCard(player.hand[0]);
+        }
+    }
+
+    internal List<Card> GetModDeck()
+    {
+        return modDeck;
+    }
+
+    internal List<Card> GetLaneDeck()
+    {
+        return laneDeck;
     }
 }
