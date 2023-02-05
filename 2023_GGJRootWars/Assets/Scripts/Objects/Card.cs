@@ -64,6 +64,7 @@ public class Card : MonoBehaviour,
                     float deltatime = Time.deltaTime;
                     float newAlpha = myImage.color.a - myImage.color.a * deltatime * fadeInMulipler;
                     myImage.color = new Color(myImage.color.r, myImage.color.g, myImage.color.b, newAlpha);
+                    myImage.rectTransform.localScale = new Vector2(newAlpha, newAlpha);
                 }
                 else
                 {
@@ -77,6 +78,7 @@ public class Card : MonoBehaviour,
                     float deltatime = Time.deltaTime;
                     float newAlpha = myImage.color.a + myImage.color.a * deltatime * fadeOutMulipler;
                     myImage.color = new Color(myImage.color.r, myImage.color.g, myImage.color.b, newAlpha);
+                    myImage.rectTransform.localScale = new Vector2(newAlpha, newAlpha);
                 }
                 else
                 {

@@ -62,7 +62,9 @@ MonoBehaviour:
   cardName: Kick
   tooltip: KickTooltip
   cardType: 0
-  picture: {fileID: 21300000, guid: fc4c18c95a8c33847b7031a9c7ae5cdf, type: 3}
+  effectedLane: 0
+  picture: {fileID: 7482667652216324306, guid: 6593545973394da469c8ed3d63617bb5, type: 3}
+  ownerID: 0
 --- !u!1 &4328914821486130560
 GameObject:
   m_ObjectHideFlags: 0

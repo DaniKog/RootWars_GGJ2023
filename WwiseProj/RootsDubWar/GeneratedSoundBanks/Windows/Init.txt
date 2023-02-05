@@ -1,0 +1,64 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1361677464	Music_Bass			\Default Work Unit\Music_Bass	
+	1424066621	Music_Melody			\Default Work Unit\Music_Melody	
+	2480394146	Music_KickSnare			\Default Work Unit\Music_KickSnare	
+	2683813432	Music_Pad			\Default Work Unit\Music_Pad	
+	3908518437	Music_Perc			\Default Work Unit\Music_Perc	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_Bass			
+	1205107841	Roots1	Music_Bass			
+	1205107842	Roots2	Music_Bass			
+	1205107843	Roots3	Music_Bass			
+	3702429984	Steppa2	Music_Bass			
+	3702429985	Steppa3	Music_Bass			
+	3702429987	Steppa1	Music_Bass			
+	748895195	None	Music_Melody			
+	1205107841	Roots1	Music_Melody			
+	1205107842	Roots2	Music_Melody			
+	1205107843	Roots3	Music_Melody			
+	3702429984	Steppa2	Music_Melody			
+	3702429985	Steppa3	Music_Melody			
+	3702429987	Steppa1	Music_Melody			
+	748895195	None	Music_KickSnare			
+	1205107841	Roots1	Music_KickSnare			
+	1205107842	Roots2	Music_KickSnare			
+	1205107843	Roots3	Music_KickSnare			
+	3702429984	Steppa2	Music_KickSnare			
+	3702429985	Steppa3	Music_KickSnare			
+	3702429987	Steppa1	Music_KickSnare			
+	748895195	None	Music_Pad			
+	1205107841	Roots1	Music_Pad			
+	1205107842	Roots2	Music_Pad			
+	1205107843	Roots3	Music_Pad			
+	3702429984	Steppa2	Music_Pad			
+	3702429985	Steppa3	Music_Pad			
+	3702429987	Steppa1	Music_Pad			
+	748895195	None	Music_Perc			
+	1205107841	Roots1	Music_Perc			
+	1205107842	Roots2	Music_Perc			
+	1205107843	Roots3	Music_Perc			
+	3702429984	Steppa2	Music_Perc			
+	3702429985	Steppa3	Music_Perc			
+	3702429987	Steppa1	Music_Perc			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	196024431	DnaymicMix_KickSnareMeter			\Default Work Unit\DnaymicMix_KickSnareMeter	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	21372533	5Pad			\Default Work Unit\Master Audio Bus\Music\5Pad	
+	294529160	3Perc			\Default Work Unit\Master Audio Bus\Music\3Perc	
+	568901512	2Bass			\Default Work Unit\Master Audio Bus\Music\2Bass	
+	2340091887	4Melody			\Default Work Unit\Master Audio Bus\Music\4Melody	
+	2718486140	1Kick			\Default Work Unit\Master Audio Bus\Music\1Kick	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
+	2489848670	KickMeter	Wwise Meter			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

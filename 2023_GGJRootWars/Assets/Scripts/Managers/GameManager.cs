@@ -5,7 +5,6 @@ using System.Numerics;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,6 +27,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public GameObject gameOvergameObejct;
     public PlayerScoreUI[] playerScores;
+    public Color[] playerColors;
+    public AK.Wwise.Event[] playerPlacementEvents;
     int currentPlayerTurnID;
     int playerCount = 0;
     int turnCount = 1;
@@ -60,11 +61,23 @@ public class GameManager : MonoBehaviour
         switch (playerCount)
         {
             case 1:
-                return Color.blue;
+                return playerColors[0];
             case 2:
-                return Color.red;
+                return playerColors[1];
             default:
                 return Color.black;
+        }
+    }
+    public AK.Wwise.Event GetPlayerPlacementEvent()
+    {
+        switch (playerCount)
+        {
+            case 1:
+                return playerPlacementEvents[0];
+            case 2:
+                return playerPlacementEvents[1];
+            default:
+                return null;
         }
     }
     public void StartTurn(int playerID)
@@ -178,6 +191,10 @@ public class GameManager : MonoBehaviour
                     index++;
                 }
             }
+            if (currentRound >= 2)
+            {
+                AudioMaster.instance.endGame = true;
+            }
 
             StartTurn(PlayerManager.instance.players[playerToStart].Id);
         }
@@ -245,7 +262,7 @@ public class GameManager : MonoBehaviour
                 }
                 index++;
             }
-
+            /*
             if (winnerPlayerindex > PlayerManager.instance.players.Count)
             {
                 gameOverText.text = "IT IS A TIE!";
@@ -254,6 +271,7 @@ public class GameManager : MonoBehaviour
             {
                 gameOverText.text = "Winner is :" + winnerPlayerindex;
             }
+            */
             gameOvergameObejct.SetActive(true);
         }
     }
@@ -338,6 +356,7 @@ public class GameManager : MonoBehaviour
         CalculateScore();
         gameOvergameObejct.SetActive(false);
         SetGameState(GameState.DrawCards);
+        AudioMaster.instance.endGame = false;
     }
     private void Update()
     {
@@ -347,6 +366,19 @@ public class GameManager : MonoBehaviour
             {
                 RestartGame();
             }
+        }
+    }
+
+    public Player.MusicType GetNextMusicType()
+    {
+        switch (playerCount)
+        {
+            case 1:
+                return Player.MusicType.Roots;
+            case 2:
+                return Player.MusicType.Steppa;
+            default:
+                return Player.MusicType.Roots;
         }
     }
 }

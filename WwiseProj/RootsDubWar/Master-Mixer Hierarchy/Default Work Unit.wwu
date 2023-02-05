@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D3438CB-7241-4F44-85D1-A764D646C474}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{1D3438CB-7241-4F44-85D1-A764D646C474}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{33393FDB-E716-4204-844F-D942F1B5DDAB}" WorkUnitID="{290673C5-E8F4-4662-9F9D-02DA6F0D2680}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{73AC9357-87DD-4B01-89F1-B6BC3EE94B4B}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Gentle_Program_Compressor_Minus_14dB_RMS" ID="{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="1Kick" ID="{8AEE8295-443A-4232-BCDB-F90BB70E2E1B}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="KickMeter" ID="{0B1C2A66-44BD-4E16-AFA6-977A79CD39B9}" WorkUnitID="{ADD06576-3F12-4861-89F4-A709C43C79BA}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="2Bass" ID="{114642BA-5E4A-4A1A-AF51-BFA938245687}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{0F553811-1CD2-4DF4-A7CF-68A978D76306}" ShortID="876328159">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="DnaymicMix_KickSnareMeter" ID="{24F0FFC5-7333-4C4A-ADAB-F3C2F3DE358E}" WorkUnitID="{9DC3844A-E1A3-4E75-8261-3E2C6742F9A4}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{E1328795-3092-4150-92AD-3E0098A3C3E4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-48</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>1.26216666666667</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Exp2</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="3Perc" ID="{16B13484-19F5-4406-8AAD-ED3EE860DD3E}"/>
+								<Bus Name="5Pad" ID="{FCE26E92-11A7-44B2-9319-88F5923BF38C}"/>
+								<Bus Name="4Melody" ID="{BC1075D8-0907-4A10-BDE0-2099864516ED}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

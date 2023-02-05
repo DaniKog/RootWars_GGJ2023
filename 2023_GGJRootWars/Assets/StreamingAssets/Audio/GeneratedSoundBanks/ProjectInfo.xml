@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="RootsDubWar" GUID="{1498EE23-0D0A-4335-B4F8-7A1799538A25}" Generator="2022.1.1.8100"/>
+	<CacheRoot>../../../../../WwiseProj/RootsDubWar/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{F3F7D50E-E33B-4148-BB88-C10F5EB9202D}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../WwiseProj/RootsDubWar/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{C8A542BC-8A88-4CC6-B276-C5654233A01D}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{62B555D4-548E-681B-D468-BF35D7388B3E}</FileHash>
+</ProjectInfo>

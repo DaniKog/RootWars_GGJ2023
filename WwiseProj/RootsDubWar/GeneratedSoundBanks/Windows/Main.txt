@@ -1,0 +1,45 @@
+Event	ID	Name			Wwise Object Path	Notes
+	477929354	Play_Player1_Place			\Music\Play_Player1_Place	
+	1097980931	TestEvent			\Music\TestEvent	
+	3405051689	Play_Player2_Place			\Music\Play_Player2_Place	
+	3562710114	Play_Dubwars			\Music\Play_Dubwars	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7101357	3Perc	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots1_Perc_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\3Perc		2425360
+	14842363	Player1_Place_03	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Player1_Place_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\Player1_Place\Player1_Place_03		303254
+	18374561	5Pad	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots2_Pad_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\5Pad		2425360
+	52546375	Player1_Place_02	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Player1_Place_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\Player1_Place\Player1_Place_02		303254
+	162156353	2BASS	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa3_BASS_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\2BASS		2425360
+	165059109	5Pad	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots3_Pad_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\5Pad		2425360
+	179544683	Player2v2_Place_02	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Player2v2_Place_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\Player2_Place\Player2v2_Place_02		303254
+	185652330	1KickSnare	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots2_Kick  Snare_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\1KickSnare		2425360
+	199844202	5Pad	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa1_Pad_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\5Pad		2425360
+	217035390	1KickSnare	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa1_KickSnare_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\1KickSnare		2425360
+	226756157	3Perc	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots2_Perc_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\3Perc		2425360
+	246251356	1KickSnare	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa3_Kick  Snare_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\1KickSnare		2425360
+	305591645	4Melody	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots3_Melody_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\4Melody		2425360
+	328578393	5Pad	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa2_Pad_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\5Pad		2425360
+	341021811	4Melody	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots1_Melody_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\4Melody		2425360
+	377914049	5Pad	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa3_Pad_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\5Pad		2425360
+	378718405	1KickSnare	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa2_Kick Snare_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\1KickSnare		2425360
+	433540790	3Perc	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa1_Perc_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\3Perc		2425360
+	458237889	3Perc	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa2_Perc_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\3Perc		2425360
+	489004655	4Melody	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa3_Melody_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\4Melody		2425360
+	491295400	2BASS	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots2_BASS_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\2BASS		2425360
+	548441223	3Perc	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots3_ Perc_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\3Perc		2425360
+	550258509	Player1_Place_01	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Player1_Place_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\Player1_Place\Player1_Place_01		303254
+	622075313	Player2v2_Place_01	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Player2v2_Place_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\Player2_Place\Player2v2_Place_01		303254
+	634657630	4Melody	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\RootsWar_Steppa1_Melody_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\4Melody		2425360
+	657044111	5Pad	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots1_Pad_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\5Pad		2425360
+	657543568	3Perc	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa3_Perc_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\3Perc		2425360
+	679266981	4Melody	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots2_Melody_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\4Melody		2425360
+	680202632	1KickSnare	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots3_Kick Snare_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\1KickSnare		2425360
+	695043101	2BASS	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa2_BASS_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\2BASS		2425360
+	823220176	Player1_Place_04	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Player1_Place_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\Player1_Place\Player1_Place_04		303254
+	836505904	2BASS	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots3_BASS_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\2BASS		2425360
+	874103190	RootsWar_Roots1_Kick _Snare	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots1_Kick _Snare_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\AllLayers\RootsWar_Roots1_Kick _Snare\RootsWar_Roots1_Kick _Snare		2425360
+	878772948	2BASS	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa1_BASS_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\2BASS		2425360
+	942696055	Player2v2_Place_03	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Player2v2_Place_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\Player2_Place\Player2v2_Place_03		303254
+	1033567352	4Melody	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Steppa2_Melody_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\4Melody		2425360
+	1066930189	2BASS	D:\Projects\GamJams\2023_GGJ\RootWars_GGJ2023\WwiseProj\RootsDubWar\.cache\Windows\SFX\Music\RootsWar_Roots1_BASS_D79FB2B7.wem		\Interactive Music Hierarchy\MusicDub\Dubwars\Dubwars\2BASS		2425360
+

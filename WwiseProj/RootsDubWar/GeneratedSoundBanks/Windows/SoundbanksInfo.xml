@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BBE8D185-FF3C-AF66-D1E9-1F3B3F3A5146}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="418265525" Name="Gentle_Program_Compressor_Minus_14dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="2489848670" Name="KickMeter" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="21372533" Name="5Pad"/>
+				<Bus Id="294529160" Name="3Perc"/>
+				<Bus Id="568901512" Name="2Bass"/>
+				<Bus Id="2340091887" Name="4Melody"/>
+				<Bus Id="2718486140" Name="1Kick">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2489848670"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="418265525"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="196024431" Name="DnaymicMix_KickSnareMeter"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1361677464" Name="Music_Bass">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1424066621" Name="Music_Melody">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2480394146" Name="Music_KickSnare">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2683813432" Name="Music_Pad">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3908518437" Name="Music_Perc">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{61032D6C-2EB8-FC36-E0B9-C6360047ABD8}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="7101357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots1_Perc.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots1_Perc_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="14842363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player1_Place_03.wav</ShortName>
+					<CachePath>SFX/Player1_Place_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="18374561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots2_Pad.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots2_Pad_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="52546375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player1_Place_02.wav</ShortName>
+					<CachePath>SFX/Player1_Place_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="162156353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa3_BASS.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa3_BASS_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="165059109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots3_Pad.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots3_Pad_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="179544683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player2v2_Place_02.wav</ShortName>
+					<CachePath>SFX/Player2v2_Place_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="185652330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots2_Kick  Snare.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots2_Kick  Snare_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="199844202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa1_Pad.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa1_Pad_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="217035390" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa1_KickSnare.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa1_KickSnare_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="226756157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots2_Perc.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots2_Perc_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="246251356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa3_Kick  Snare.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa3_Kick  Snare_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="305591645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots3_Melody.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots3_Melody_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="328578393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa2_Pad.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa2_Pad_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="341021811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots1_Melody.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots1_Melody_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="377914049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa3_Pad.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa3_Pad_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="378718405" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa2_Kick Snare.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa2_Kick Snare_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="433540790" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa1_Perc.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa1_Perc_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="458237889" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa2_Perc.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa2_Perc_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="489004655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa3_Melody.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa3_Melody_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="491295400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots2_BASS.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots2_BASS_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="548441223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots3_ Perc.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots3_ Perc_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="550258509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player1_Place_01.wav</ShortName>
+					<CachePath>SFX/Player1_Place_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="622075313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player2v2_Place_01.wav</ShortName>
+					<CachePath>SFX/Player2v2_Place_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="634657630" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RootsWar_Steppa1_Melody.wav</ShortName>
+					<CachePath>SFX/RootsWar_Steppa1_Melody_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="657044111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots1_Pad.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots1_Pad_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="657543568" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa3_Perc.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa3_Perc_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="679266981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots2_Melody.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots2_Melody_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="680202632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots3_Kick Snare.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots3_Kick Snare_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="695043101" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa2_BASS.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa2_BASS_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="823220176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player1_Place_04.wav</ShortName>
+					<CachePath>SFX/Player1_Place_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="836505904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots3_BASS.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots3_BASS_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="874103190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots1_Kick _Snare.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots1_Kick _Snare_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="878772948" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa1_BASS.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa1_BASS_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="942696055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player2v2_Place_03.wav</ShortName>
+					<CachePath>SFX/Player2v2_Place_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1033567352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Steppa2_Melody.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Steppa2_Melody_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1066930189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\RootsWar_Roots1_BASS.wav</ShortName>
+					<CachePath>SFX/Music/RootsWar_Roots1_BASS_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3562710114" Name="Play_Dubwars" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="7101357"/>
+						<MediaRef Id="18374561"/>
+						<MediaRef Id="162156353"/>
+						<MediaRef Id="165059109"/>
+						<MediaRef Id="185652330"/>
+						<MediaRef Id="199844202"/>
+						<MediaRef Id="217035390"/>
+						<MediaRef Id="226756157"/>
+						<MediaRef Id="246251356"/>
+						<MediaRef Id="305591645"/>
+						<MediaRef Id="328578393"/>
+						<MediaRef Id="341021811"/>
+						<MediaRef Id="377914049"/>
+						<MediaRef Id="378718405"/>
+						<MediaRef Id="433540790"/>
+						<MediaRef Id="458237889"/>
+						<MediaRef Id="489004655"/>
+						<MediaRef Id="491295400"/>
+						<MediaRef Id="548441223"/>
+						<MediaRef Id="634657630"/>
+						<MediaRef Id="657044111"/>
+						<MediaRef Id="657543568"/>
+						<MediaRef Id="679266981"/>
+						<MediaRef Id="680202632"/>
+						<MediaRef Id="695043101"/>
+						<MediaRef Id="836505904"/>
+						<MediaRef Id="874103190"/>
+						<MediaRef Id="878772948"/>
+						<MediaRef Id="1033567352"/>
+						<MediaRef Id="1066930189"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="477929354" Name="Play_Player1_Place" DurationType="OneShot" DurationMin="3.1578958" DurationMax="3.1578958">
+					<MediaRefs>
+						<MediaRef Id="14842363"/>
+						<MediaRef Id="52546375"/>
+						<MediaRef Id="550258509"/>
+						<MediaRef Id="823220176"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3405051689" Name="Play_Player2_Place" DurationType="OneShot" DurationMin="3.1578958" DurationMax="3.1578958">
+					<MediaRefs>
+						<MediaRef Id="179544683"/>
+						<MediaRef Id="622075313"/>
+						<MediaRef Id="942696055"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1097980931" Name="TestEvent" DurationType="OneShot" DurationMin="12.631583" DurationMax="12.631583">
+					<MediaRefs>
+						<MediaRef Id="874103190"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1361677464" Name="Music_Bass">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1424066621" Name="Music_Melody">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2480394146" Name="Music_KickSnare">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2683813432" Name="Music_Pad">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3908518437" Name="Music_Perc">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1205107841" Name="Roots1"/>
+						<State Id="1205107842" Name="Roots2"/>
+						<State Id="1205107843" Name="Roots3"/>
+						<State Id="3702429984" Name="Steppa2"/>
+						<State Id="3702429985" Name="Steppa3"/>
+						<State Id="3702429987" Name="Steppa1"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B604F075-EFA2-9F5D-EBA0-905179AAA0D2}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,1022 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37a9afe8072071b49a9c035ebf8d1574, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 336a791ecbc7a54ebead979d842d262a
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 336a791ecbc7a54ebead979d842d262a
+    GuidInternal: 
+    m_lastTime: -8585260024429018668
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cb38341d4172444f85d1a764d646c474
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: cb38341d4172444f85d1a764d646c474
+    GuidInternal: 
+    m_lastTime: -8585259976762156235
+    List:
+    - name: 1Kick
+      guid: 9582ee8a3a443242bcdbf90bb70e2e1b
+      id: 2718486140
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb38341d4172444f85d1a764d646c474
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 5793ac73dd87014b89f1b6bc3ee94b4b
+      - ElementName: 1Kick
+        ObjectType: 2
+        guid: 9582ee8a3a443242bcdbf90bb70e2e1b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music\1Kick
+    - name: 2Bass
+      guid: ba4246114a5e1a4aaf51bfa938245687
+      id: 568901512
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb38341d4172444f85d1a764d646c474
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 5793ac73dd87014b89f1b6bc3ee94b4b
+      - ElementName: 2Bass
+        ObjectType: 2
+        guid: ba4246114a5e1a4aaf51bfa938245687
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music\2Bass
+    - name: 3Perc
+      guid: 8434b116f51906448aaded3ee860dd3e
+      id: 294529160
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb38341d4172444f85d1a764d646c474
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 5793ac73dd87014b89f1b6bc3ee94b4b
+      - ElementName: 3Perc
+        ObjectType: 2
+        guid: 8434b116f51906448aaded3ee860dd3e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music\3Perc
+    - name: 4Melody
+      guid: d87510bc0709104abde02099864516ed
+      id: 2340091887
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb38341d4172444f85d1a764d646c474
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 5793ac73dd87014b89f1b6bc3ee94b4b
+      - ElementName: 4Melody
+        ObjectType: 2
+        guid: d87510bc0709104abde02099864516ed
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music\4Melody
+    - name: 5Pad
+      guid: 926ee2fca711b244931988f5923bf38c
+      id: 21372533
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb38341d4172444f85d1a764d646c474
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 5793ac73dd87014b89f1b6bc3ee94b4b
+      - ElementName: 5Pad
+        ObjectType: 2
+        guid: 926ee2fca711b244931988f5923bf38c
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music\5Pad
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb38341d4172444f85d1a764d646c474
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 5793ac73dd87014b89f1b6bc3ee94b4b
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cb38341d4172444f85d1a764d646c474
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 5793ac73dd87014b89f1b6bc3ee94b4b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b1cd5bb3c85aed4c96e9ed9c9444ab8f
+    ParentPath: SoundBanks\Default Work Unit
+    guid: b1cd5bb3c85aed4c96e9ed9c9444ab8f
+    GuidInternal: 
+    m_lastTime: -8585260015242065194
+    List:
+    - name: Main
+      guid: 124a466d41194747b26a622c457aa313
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b1cd5bb3c85aed4c96e9ed9c9444ab8f
+      - ElementName: Main
+        ObjectType: 7
+        guid: 124a466d41194747b26a622c457aa313
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 332ae4f335348d44a717ce6e6c3e2bd1
+    ParentPath: Events\Default Work Unit
+    guid: 332ae4f335348d44a717ce6e6c3e2bd1
+    GuidInternal: 
+    m_lastTime: -8585259787912022122
+    List: []
+  - PhysicalPath: Events\Music.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Music
+      ObjectType: 12
+      guid: 8fc934568371644599e1483533ff6bfa
+    ParentPath: Events\Music
+    guid: 8fc934568371644599e1483533ff6bfa
+    GuidInternal: 
+    m_lastTime: -8585259783917002088
+    List:
+    - name: Play_Dubwars
+      guid: d1911507672f32479525177e0adc78a7
+      id: 3562710114
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 8fc934568371644599e1483533ff6bfa
+      - ElementName: Play_Dubwars
+        ObjectType: 3
+        guid: d1911507672f32479525177e0adc78a7
+      Path: Events\Music\Play_Dubwars
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Player1_Place
+      guid: a2041be292625c4a876b018ad5df1727
+      id: 477929354
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 8fc934568371644599e1483533ff6bfa
+      - ElementName: Play_Player1_Place
+        ObjectType: 3
+        guid: a2041be292625c4a876b018ad5df1727
+      Path: Events\Music\Play_Player1_Place
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Player2_Place
+      guid: bfd767283de91947a0cdee21cb18297d
+      id: 3405051689
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 8fc934568371644599e1483533ff6bfa
+      - ElementName: Play_Player2_Place
+        ObjectType: 3
+        guid: bfd767283de91947a0cdee21cb18297d
+      Path: Events\Music\Play_Player2_Place
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: TestEvent
+      guid: d577c286badf1e4f92ea70ac0b537b02
+      id: 1097980931
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 8fc934568371644599e1483533ff6bfa
+      - ElementName: TestEvent
+        ObjectType: 3
+        guid: d577c286badf1e4f92ea70ac0b537b02
+      Path: Events\Music\TestEvent
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4a84c39da3e1754e82613e2c6742f9a4
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 4a84c39da3e1754e82613e2c6742f9a4
+    GuidInternal: 
+    m_lastTime: -8585259979037809400
+    List:
+    - name: DnaymicMix_KickSnareMeter
+      guid: c5fff02433734a4cadabf3c2f3de358e
+      id: 196024431
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4a84c39da3e1754e82613e2c6742f9a4
+      - ElementName: DnaymicMix_KickSnareMeter
+        ObjectType: 13
+        guid: c5fff02433734a4cadabf3c2f3de358e
+      Path: Game Parameters\Default Work Unit\DnaymicMix_KickSnareMeter
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+    ParentPath: States\Default Work Unit
+    guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+    GuidInternal: 
+    m_lastTime: -8585259985711668222
+    List:
+    - name: Music_Bass
+      guid: 7020d97ab0c41b4f8c33ab9e9492e002
+      id: 1361677464
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+      - ElementName: Music_Bass
+        ObjectType: 9
+        guid: 7020d97ab0c41b4f8c33ab9e9492e002
+      Path: States\Default Work Unit\Music_Bass
+      values:
+      - name: None
+        guid: 7c4022407e690b4a93110d739b532e6e
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Bass
+          ObjectType: 9
+          guid: 7020d97ab0c41b4f8c33ab9e9492e002
+        - ElementName: None
+          ObjectType: 8
+          guid: 7c4022407e690b4a93110d739b532e6e
+      - name: Roots1
+        guid: 7e287a7975ceb24f87ab42534a5fa2ee
+        id: 1205107841
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Bass
+          ObjectType: 9
+          guid: 7020d97ab0c41b4f8c33ab9e9492e002
+        - ElementName: Roots1
+          ObjectType: 8
+          guid: 7e287a7975ceb24f87ab42534a5fa2ee
+      - name: Roots2
+        guid: 5ea39df513788e4ebc6021299e582b68
+        id: 1205107842
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Bass
+          ObjectType: 9
+          guid: 7020d97ab0c41b4f8c33ab9e9492e002
+        - ElementName: Roots2
+          ObjectType: 8
+          guid: 5ea39df513788e4ebc6021299e582b68
+      - name: Roots3
+        guid: 7362d1a11ced344a8e648c1259c85f8f
+        id: 1205107843
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Bass
+          ObjectType: 9
+          guid: 7020d97ab0c41b4f8c33ab9e9492e002
+        - ElementName: Roots3
+          ObjectType: 8
+          guid: 7362d1a11ced344a8e648c1259c85f8f
+      - name: Steppa1
+        guid: ddd94f6b2d68ef4ab5687c9980c3d6c9
+        id: 3702429987
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Bass
+          ObjectType: 9
+          guid: 7020d97ab0c41b4f8c33ab9e9492e002
+        - ElementName: Steppa1
+          ObjectType: 8
+          guid: ddd94f6b2d68ef4ab5687c9980c3d6c9
+      - name: Steppa2
+        guid: ac4621b96c7e8145b1111b9285a40c15
+        id: 3702429984
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Bass
+          ObjectType: 9
+          guid: 7020d97ab0c41b4f8c33ab9e9492e002
+        - ElementName: Steppa2
+          ObjectType: 8
+          guid: ac4621b96c7e8145b1111b9285a40c15
+      - name: Steppa3
+        guid: dd55c25ef8e9f04eacd48977076868c5
+        id: 3702429985
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Bass
+          ObjectType: 9
+          guid: 7020d97ab0c41b4f8c33ab9e9492e002
+        - ElementName: Steppa3
+          ObjectType: 8
+          guid: dd55c25ef8e9f04eacd48977076868c5
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_KickSnare
+      guid: 9c17302c04d8e444a5b78d2e77a82997
+      id: 2480394146
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+      - ElementName: Music_KickSnare
+        ObjectType: 9
+        guid: 9c17302c04d8e444a5b78d2e77a82997
+      Path: States\Default Work Unit\Music_KickSnare
+      values:
+      - name: None
+        guid: f6a52caaa02ce347ae8729e13ed17274
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_KickSnare
+          ObjectType: 9
+          guid: 9c17302c04d8e444a5b78d2e77a82997
+        - ElementName: None
+          ObjectType: 8
+          guid: f6a52caaa02ce347ae8729e13ed17274
+      - name: Roots1
+        guid: afaccbf31642a944958c215e8c0bdafe
+        id: 1205107841
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_KickSnare
+          ObjectType: 9
+          guid: 9c17302c04d8e444a5b78d2e77a82997
+        - ElementName: Roots1
+          ObjectType: 8
+          guid: afaccbf31642a944958c215e8c0bdafe
+      - name: Roots2
+        guid: ee948965e0100045b8ee38638f66c403
+        id: 1205107842
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_KickSnare
+          ObjectType: 9
+          guid: 9c17302c04d8e444a5b78d2e77a82997
+        - ElementName: Roots2
+          ObjectType: 8
+          guid: ee948965e0100045b8ee38638f66c403
+      - name: Roots3
+        guid: 8a0638a905096c4d834147fb7f7f519a
+        id: 1205107843
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_KickSnare
+          ObjectType: 9
+          guid: 9c17302c04d8e444a5b78d2e77a82997
+        - ElementName: Roots3
+          ObjectType: 8
+          guid: 8a0638a905096c4d834147fb7f7f519a
+      - name: Steppa1
+        guid: afa3a69bf500424eb28750315ee7518d
+        id: 3702429987
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_KickSnare
+          ObjectType: 9
+          guid: 9c17302c04d8e444a5b78d2e77a82997
+        - ElementName: Steppa1
+          ObjectType: 8
+          guid: afa3a69bf500424eb28750315ee7518d
+      - name: Steppa2
+        guid: c954076759357b4097fec05d13825476
+        id: 3702429984
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_KickSnare
+          ObjectType: 9
+          guid: 9c17302c04d8e444a5b78d2e77a82997
+        - ElementName: Steppa2
+          ObjectType: 8
+          guid: c954076759357b4097fec05d13825476
+      - name: Steppa3
+        guid: 27ef1ef45e57904d9e9a98e8a4265eb5
+        id: 3702429985
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_KickSnare
+          ObjectType: 9
+          guid: 9c17302c04d8e444a5b78d2e77a82997
+        - ElementName: Steppa3
+          ObjectType: 8
+          guid: 27ef1ef45e57904d9e9a98e8a4265eb5
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_Melody
+      guid: 1f9b7f88b7db8e4ba714fc1449e95841
+      id: 1424066621
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+      - ElementName: Music_Melody
+        ObjectType: 9
+        guid: 1f9b7f88b7db8e4ba714fc1449e95841
+      Path: States\Default Work Unit\Music_Melody
+      values:
+      - name: None
+        guid: 3ccc78cef44fd345b81d99a3ea924f2d
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Melody
+          ObjectType: 9
+          guid: 1f9b7f88b7db8e4ba714fc1449e95841
+        - ElementName: None
+          ObjectType: 8
+          guid: 3ccc78cef44fd345b81d99a3ea924f2d
+      - name: Roots1
+        guid: ebfac6bc2960144798016b7f88ebb4f6
+        id: 1205107841
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Melody
+          ObjectType: 9
+          guid: 1f9b7f88b7db8e4ba714fc1449e95841
+        - ElementName: Roots1
+          ObjectType: 8
+          guid: ebfac6bc2960144798016b7f88ebb4f6
+      - name: Roots2
+        guid: 11976bb8bca9534db8ca3193ece40990
+        id: 1205107842
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Melody
+          ObjectType: 9
+          guid: 1f9b7f88b7db8e4ba714fc1449e95841
+        - ElementName: Roots2
+          ObjectType: 8
+          guid: 11976bb8bca9534db8ca3193ece40990
+      - name: Roots3
+        guid: a0298daad86c09429477e653e631a292
+        id: 1205107843
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Melody
+          ObjectType: 9
+          guid: 1f9b7f88b7db8e4ba714fc1449e95841
+        - ElementName: Roots3
+          ObjectType: 8
+          guid: a0298daad86c09429477e653e631a292
+      - name: Steppa1
+        guid: b55969227974a8468d1008d429c867c0
+        id: 3702429987
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Melody
+          ObjectType: 9
+          guid: 1f9b7f88b7db8e4ba714fc1449e95841
+        - ElementName: Steppa1
+          ObjectType: 8
+          guid: b55969227974a8468d1008d429c867c0
+      - name: Steppa2
+        guid: fc00c7ea6a670b4797fba33ebd2c2e5b
+        id: 3702429984
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Melody
+          ObjectType: 9
+          guid: 1f9b7f88b7db8e4ba714fc1449e95841
+        - ElementName: Steppa2
+          ObjectType: 8
+          guid: fc00c7ea6a670b4797fba33ebd2c2e5b
+      - name: Steppa3
+        guid: 9ba7268ed2268044a693e252ed16592c
+        id: 3702429985
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Melody
+          ObjectType: 9
+          guid: 1f9b7f88b7db8e4ba714fc1449e95841
+        - ElementName: Steppa3
+          ObjectType: 8
+          guid: 9ba7268ed2268044a693e252ed16592c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_Pad
+      guid: 266feaa9d9dc0049808450bc08d81df5
+      id: 2683813432
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+      - ElementName: Music_Pad
+        ObjectType: 9
+        guid: 266feaa9d9dc0049808450bc08d81df5
+      Path: States\Default Work Unit\Music_Pad
+      values:
+      - name: None
+        guid: c7d24eee8a47b14f8e3d618e12fa0c7f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Pad
+          ObjectType: 9
+          guid: 266feaa9d9dc0049808450bc08d81df5
+        - ElementName: None
+          ObjectType: 8
+          guid: c7d24eee8a47b14f8e3d618e12fa0c7f
+      - name: Roots1
+        guid: 10d1a29c51a2fe4c96d077949d59c038
+        id: 1205107841
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Pad
+          ObjectType: 9
+          guid: 266feaa9d9dc0049808450bc08d81df5
+        - ElementName: Roots1
+          ObjectType: 8
+          guid: 10d1a29c51a2fe4c96d077949d59c038
+      - name: Roots2
+        guid: 1cd1583905f99841bf1457517448feb3
+        id: 1205107842
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Pad
+          ObjectType: 9
+          guid: 266feaa9d9dc0049808450bc08d81df5
+        - ElementName: Roots2
+          ObjectType: 8
+          guid: 1cd1583905f99841bf1457517448feb3
+      - name: Roots3
+        guid: d55c5e676238b342bd32b289448d3664
+        id: 1205107843
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Pad
+          ObjectType: 9
+          guid: 266feaa9d9dc0049808450bc08d81df5
+        - ElementName: Roots3
+          ObjectType: 8
+          guid: d55c5e676238b342bd32b289448d3664
+      - name: Steppa1
+        guid: 66dc1e08cba23b46a7e67dd495420c2d
+        id: 3702429987
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Pad
+          ObjectType: 9
+          guid: 266feaa9d9dc0049808450bc08d81df5
+        - ElementName: Steppa1
+          ObjectType: 8
+          guid: 66dc1e08cba23b46a7e67dd495420c2d
+      - name: Steppa2
+        guid: 28ebc48076dd5f41891a9184704e48be
+        id: 3702429984
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Pad
+          ObjectType: 9
+          guid: 266feaa9d9dc0049808450bc08d81df5
+        - ElementName: Steppa2
+          ObjectType: 8
+          guid: 28ebc48076dd5f41891a9184704e48be
+      - name: Steppa3
+        guid: 001611db11bb0e4a98ba552106b7f9ba
+        id: 3702429985
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Pad
+          ObjectType: 9
+          guid: 266feaa9d9dc0049808450bc08d81df5
+        - ElementName: Steppa3
+          ObjectType: 8
+          guid: 001611db11bb0e4a98ba552106b7f9ba
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_Perc
+      guid: bcb65468933d8d4e9943777d8f2e66c7
+      id: 3908518437
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+      - ElementName: Music_Perc
+        ObjectType: 9
+        guid: bcb65468933d8d4e9943777d8f2e66c7
+      Path: States\Default Work Unit\Music_Perc
+      values:
+      - name: None
+        guid: a3d2830d8482084394adbfab483b68a4
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Perc
+          ObjectType: 9
+          guid: bcb65468933d8d4e9943777d8f2e66c7
+        - ElementName: None
+          ObjectType: 8
+          guid: a3d2830d8482084394adbfab483b68a4
+      - name: Roots1
+        guid: ac5536d48238ae44bbc1053fa4468caa
+        id: 1205107841
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Perc
+          ObjectType: 9
+          guid: bcb65468933d8d4e9943777d8f2e66c7
+        - ElementName: Roots1
+          ObjectType: 8
+          guid: ac5536d48238ae44bbc1053fa4468caa
+      - name: Roots2
+        guid: 638ea29c93e0aa4186f29bcf27fe88f5
+        id: 1205107842
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Perc
+          ObjectType: 9
+          guid: bcb65468933d8d4e9943777d8f2e66c7
+        - ElementName: Roots2
+          ObjectType: 8
+          guid: 638ea29c93e0aa4186f29bcf27fe88f5
+      - name: Roots3
+        guid: 288f3806c85f744e862c20f379da105b
+        id: 1205107843
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Perc
+          ObjectType: 9
+          guid: bcb65468933d8d4e9943777d8f2e66c7
+        - ElementName: Roots3
+          ObjectType: 8
+          guid: 288f3806c85f744e862c20f379da105b
+      - name: Steppa1
+        guid: d78843dbf95fd14ebf8b91993ebcfa78
+        id: 3702429987
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Perc
+          ObjectType: 9
+          guid: bcb65468933d8d4e9943777d8f2e66c7
+        - ElementName: Steppa1
+          ObjectType: 8
+          guid: d78843dbf95fd14ebf8b91993ebcfa78
+      - name: Steppa2
+        guid: 8b49656cc734e44f92f56f398373939b
+        id: 3702429984
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Perc
+          ObjectType: 9
+          guid: bcb65468933d8d4e9943777d8f2e66c7
+        - ElementName: Steppa2
+          ObjectType: 8
+          guid: 8b49656cc734e44f92f56f398373939b
+      - name: Steppa3
+        guid: ea5be61e14a8ba4eb22b6c00f3b5f5a4
+        id: 3702429985
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1f20d1d45c6e6f4c9a9ae30e2530aa5e
+        - ElementName: Music_Perc
+          ObjectType: 9
+          guid: bcb65468933d8d4e9943777d8f2e66c7
+        - ElementName: Steppa3
+          ObjectType: 8
+          guid: ea5be61e14a8ba4eb22b6c00f3b5f5a4
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0ff5f6fee54b4e4f86e5c6a6108b7b2d
+    ParentPath: Switches\Default Work Unit
+    guid: 0ff5f6fee54b4e4f86e5c6a6108b7b2d
+    GuidInternal: 
+    m_lastTime: -8585260024428892603
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d40361ba49a10c4099149465389bb7ae
+    ParentPath: Triggers\Default Work Unit
+    guid: d40361ba49a10c4099149465389bb7ae
+    GuidInternal: 
+    m_lastTime: -8585260024428230885
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 0100000005000000070000000c0000000d0000001000000011000000
+  AutoSyncSelection: 1
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

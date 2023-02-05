@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADD06576-3F12-4861-89F4-A709C43C79BA}" SchemaVersion="110">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{ADD06576-3F12-4861-89F4-A709C43C79BA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="KickMeter" ID="{0B1C2A66-44BD-4E16-AFA6-977A79CD39B9}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="Max" Type="Real32" Value="12"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="4.42"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="DnaymicMix_KickSnareMeter" ID="{24F0FFC5-7333-4C4A-ADAB-F3C2F3DE358E}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="PlaceMenshelf" ID="{5E35F170-9480-4886-9444-223EF13CF305}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="947"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

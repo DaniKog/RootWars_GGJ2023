@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CardManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class CardManager : MonoBehaviour
     public int handLaneCount = 3; // the count of each lane card in hand
     public int handModCount = 3; // the count of each mod card in hand
     public float spaceBetweenCard = 0.1f;
+    public GameObject cardContainder;
     //Internal
     Card[] cards;
     List<Card> laneDeck = new List<Card>();
@@ -24,7 +26,8 @@ public class CardManager : MonoBehaviour
     {
         instance = this;
         //Create Decks
-        cards = Resources.FindObjectsOfTypeAll<Card>();
+        cards = cardContainder.GetComponentsInChildren<Card>();
+        //cards = Resources.FindObjectsOfTypeAll<Card>();
         foreach (Card card in cards)
         {
             if (card.cardType == Card.CardType.Lane)
@@ -68,8 +71,10 @@ public class CardManager : MonoBehaviour
         if (cardtype == Card.CardType.Lane)
         {
             Card card = player.laneDeck[randomNumber];
-
+            
             Card playerCard = Instantiate(card);
+            Image cardImg = playerCard.GetComponentInChildren<Image>();
+            cardImg.color = player.playerColor;
             playerCard.transform.SetParent(player.transform);
             RectTransform rectTransform = playerCard.GetComponent<RectTransform>();
             rectTransform.anchoredPosition = Vector2.zero;
@@ -114,12 +119,17 @@ public class CardManager : MonoBehaviour
     }
     public void PlayedCard(Card card, LaneSide landSide)
     {
+        Player Ownerplayer = PlayerManager.instance.GetPlayerByID(card.ownerID);
+        Ownerplayer.PlayPlacementEvent();
         //TODO add mods
         if (card.cardType == Card.CardType.Lane)
         {
             landSide.IncreaceCurrentSlot();
             DiscardCard(card);
         }
+        ScreenShakerManager.instance.TriggerShake(0.2f, landSide.GetCurrentSlot());
+        //aound
+
     }
 
     private void DiscardCard(Card card)

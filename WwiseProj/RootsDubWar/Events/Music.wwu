@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5634C98F-7183-4564-99E1-483533FF6BFA}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Music" ID="{5634C98F-7183-4564-99E1-483533FF6BFA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TestEvent" ID="{86C277D5-DFBA-4F1E-92EA-70AC0B537B02}">
+					<ChildrenList>
+						<Action Name="" ID="{8832185F-D173-492C-89C6-69285CCD6E50}" ShortID="403867431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RootsWar_Roots1_Kick _Snare" ID="{ADD28C29-A286-420D-B954-8F4F237300B5}" WorkUnitID="{937ADCFF-3FF2-415B-9CFC-0BEF7ACFAECE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dubwars" ID="{071591D1-2F67-4732-9525-177E0ADC78A7}">
+					<ChildrenList>
+						<Action Name="" ID="{3187BB55-9ED5-48B1-ABEA-9E36B8FBC24C}" ShortID="200934616">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dubwars" ID="{5A4EF5CD-2BEE-4A1D-8373-4F7F47D0C5AB}" WorkUnitID="{937ADCFF-3FF2-415B-9CFC-0BEF7ACFAECE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player1_Place" ID="{E21B04A2-6292-4A5C-876B-018AD5DF1727}">
+					<ChildrenList>
+						<Action Name="" ID="{637EF2D8-A844-4343-A16C-424ABA753DB6}" ShortID="655483873">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player1_Place" ID="{B62A1225-7800-461E-94C2-2F8C9F7734E3}" WorkUnitID="{7527575C-831A-419B-B8E3-8BB54D5BD6AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player2_Place" ID="{2867D7BF-E93D-4719-A0CD-EE21CB18297D}">
+					<ChildrenList>
+						<Action Name="" ID="{EC33852A-2BE4-4EF4-9DD7-7B1C38F463FE}" ShortID="1068889983">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player2_Place" ID="{788374E3-C207-4A44-83DC-F24FBB21EA15}" WorkUnitID="{7527575C-831A-419B-B8E3-8BB54D5BD6AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

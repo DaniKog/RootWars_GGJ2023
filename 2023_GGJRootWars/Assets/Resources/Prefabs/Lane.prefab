@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+  m_Color: {r: 1, g: 0.9575429, b: 0.40943396, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.40943396, b: 0.40943396, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -591,11 +591,13 @@ MonoBehaviour:
   - {fileID: 6523764733270644185}
   - {fileID: 1714310103760811570}
   - {fileID: 5097085564266898835}
+  slotColors: []
   mod: {fileID: 2101999219602252354}
   ownerId: 0
   highLightImg: {fileID: 7218377618770434175}
   Highlighted: 0
   playerToken: {fileID: 3959396936407173543}
+  loadingSlotImg: {fileID: 0}
 --- !u!222 &6128842126481741799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -693,7 +695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
+  m_Color: {r: 0.51213014, g: 1, b: 0.48627448, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -934,7 +936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.40943396, b: 0.40943396, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1010,7 +1012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
+  m_Color: {r: 0.51213014, g: 1, b: 0.48627448, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1088,11 +1090,13 @@ MonoBehaviour:
   - {fileID: 4140024871742451259}
   - {fileID: 7168360329183169426}
   - {fileID: 6916098164642252518}
+  slotColors: []
   mod: {fileID: 8049596416732262141}
   ownerId: 0
   highLightImg: {fileID: 4584327380619954679}
   Highlighted: 0
   playerToken: {fileID: 206787921703415133}
+  loadingSlotImg: {fileID: 0}
 --- !u!222 &5076128774631819387
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1190,7 +1194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+  m_Color: {r: 1, g: 0.9575429, b: 0.40943396, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1300,8 +1304,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laneType: 0
+  currentLaneState: 0
   RSide: {fileID: 7654734353924793883}
   LSide: {fileID: 1548737087963164225}
+  stateGroup: 
+  currentPlayingLane: {fileID: 0}
+  visuzliationGrow: 0
 --- !u!1 &8246832004609839549
 GameObject:
   m_ObjectHideFlags: 0

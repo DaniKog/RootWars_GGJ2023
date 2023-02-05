@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9DC3844A-E1A3-4E75-8261-3E2C6742F9A4}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{9DC3844A-E1A3-4E75-8261-3E2C6742F9A4}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="DnaymicMix_KickSnareMeter" ID="{24F0FFC5-7333-4C4A-ADAB-F3C2F3DE358E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="12"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

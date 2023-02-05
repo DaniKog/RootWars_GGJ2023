@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_KickSnare" ID="{2C30179C-D804-44E4-A5B7-8D2E77A82997}">
+					<ChildrenList>
+						<State Name="None" ID="{AA2CA5F6-2CA0-47E3-AE87-29E13ED17274}"/>
+						<State Name="Steppa1" ID="{9BA6A3AF-00F5-4E42-B287-50315EE7518D}"/>
+						<State Name="Steppa2" ID="{670754C9-3559-407B-97FE-C05D13825476}"/>
+						<State Name="Steppa3" ID="{F41EEF27-575E-4D90-9E9A-98E8A4265EB5}"/>
+						<State Name="Roots1" ID="{F3CBACAF-4216-44A9-958C-215E8C0BDAFE}"/>
+						<State Name="Roots2" ID="{658994EE-10E0-4500-B8EE-38638F66C403}"/>
+						<State Name="Roots3" ID="{A938068A-0905-4D6C-8341-47FB7F7F519A}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_Bass" ID="{7AD92070-C4B0-4F1B-8C33-AB9E9492E002}">
+					<ChildrenList>
+						<State Name="None" ID="{4022407C-697E-4A0B-9311-0D739B532E6E}"/>
+						<State Name="Roots1" ID="{797A287E-CE75-4FB2-87AB-42534A5FA2EE}"/>
+						<State Name="Roots2" ID="{F59DA35E-7813-4E8E-BC60-21299E582B68}"/>
+						<State Name="Roots3" ID="{A1D16273-ED1C-4A34-8E64-8C1259C85F8F}"/>
+						<State Name="Steppa1" ID="{6B4FD9DD-682D-4AEF-B568-7C9980C3D6C9}"/>
+						<State Name="Steppa2" ID="{B92146AC-7E6C-4581-B111-1B9285A40C15}"/>
+						<State Name="Steppa3" ID="{5EC255DD-E9F8-4EF0-ACD4-8977076868C5}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_Perc" ID="{6854B6BC-3D93-4E8D-9943-777D8F2E66C7}">
+					<ChildrenList>
+						<State Name="None" ID="{0D83D2A3-8284-4308-94AD-BFAB483B68A4}"/>
+						<State Name="Roots1" ID="{D43655AC-3882-44AE-BBC1-053FA4468CAA}"/>
+						<State Name="Roots2" ID="{9CA28E63-E093-41AA-86F2-9BCF27FE88F5}"/>
+						<State Name="Roots3" ID="{06388F28-5FC8-4E74-862C-20F379DA105B}"/>
+						<State Name="Steppa1" ID="{DB4388D7-5FF9-4ED1-BF8B-91993EBCFA78}"/>
+						<State Name="Steppa2" ID="{6C65498B-34C7-4FE4-92F5-6F398373939B}"/>
+						<State Name="Steppa3" ID="{1EE65BEA-A814-4EBA-B22B-6C00F3B5F5A4}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_Melody" ID="{887F9B1F-DBB7-4B8E-A714-FC1449E95841}">
+					<ChildrenList>
+						<State Name="None" ID="{CE78CC3C-4FF4-45D3-B81D-99A3EA924F2D}"/>
+						<State Name="Roots1" ID="{BCC6FAEB-6029-4714-9801-6B7F88EBB4F6}"/>
+						<State Name="Roots2" ID="{B86B9711-A9BC-4D53-B8CA-3193ECE40990}"/>
+						<State Name="Roots3" ID="{AA8D29A0-6CD8-4209-9477-E653E631A292}"/>
+						<State Name="Steppa1" ID="{226959B5-7479-46A8-8D10-08D429C867C0}"/>
+						<State Name="Steppa2" ID="{EAC700FC-676A-470B-97FB-A33EBD2C2E5B}"/>
+						<State Name="Steppa3" ID="{8E26A79B-26D2-4480-A693-E252ED16592C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_Pad" ID="{A9EA6F26-DCD9-4900-8084-50BC08D81DF5}">
+					<ChildrenList>
+						<State Name="None" ID="{EE4ED2C7-478A-4FB1-8E3D-618E12FA0C7F}"/>
+						<State Name="Roots1" ID="{9CA2D110-A251-4CFE-96D0-77949D59C038}"/>
+						<State Name="Roots2" ID="{3958D11C-F905-4198-BF14-57517448FEB3}"/>
+						<State Name="Roots3" ID="{675E5CD5-3862-42B3-BD32-B289448D3664}"/>
+						<State Name="Steppa1" ID="{081EDC66-A2CB-463B-A7E6-7DD495420C2D}"/>
+						<State Name="Steppa2" ID="{80C4EB28-DD76-415F-891A-9184704E48BE}"/>
+						<State Name="Steppa3" ID="{DB111600-BB11-4A0E-98BA-552106B7F9BA}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

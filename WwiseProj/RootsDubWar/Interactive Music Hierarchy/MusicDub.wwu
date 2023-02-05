@@ -1,0 +1,3948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{937ADCFF-3FF2-415B-9CFC-0BEF7ACFAECE}" SchemaVersion="110">
+	<InteractiveMusic>
+		<WorkUnit Name="MusicDub" ID="{937ADCFF-3FF2-415B-9CFC-0BEF7ACFAECE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AllLayers" ID="{7F566312-BA6E-472B-B611-C481CCF0DBC7}" ShortID="244765136">
+					<ChildrenList>
+						<MusicSegment Name="RootsWar_Roots1_BASS" ID="{D9E3866D-7816-45C5-BB3F-9148D0E969DB}" ShortID="861966725">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots1_BASS" ID="{2BB2A6D3-185E-4B82-8372-1B05065596A9}" ShortID="918459257">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_BASS" ID="{A14E1604-E0E7-4749-92A3-6B360A1D5414}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1066930189"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{ECCC09B1-B95C-4574-AAA3-A5708B0F9D62}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{2E5A8E10-B40B-4571-B6CD-FEAB682AEBE7}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_BASS" ID="{A12AF4D0-B5B6-422D-AEA5-08C4BEB25DCA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_BASS" ID="{A14E1604-E0E7-4749-92A3-6B360A1D5414}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{51CB4B39-71DE-43A6-928F-ED48602A8444}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{32CBB665-287E-449C-8B89-5596BC330674}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots1_Kick _Snare" ID="{ADD28C29-A286-420D-B954-8F4F237300B5}" ShortID="419997285">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots1_Kick _Snare" ID="{9215DA2F-C7A0-472F-AE64-862BD1235575}" ShortID="510542032">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_Kick _Snare" ID="{DC8C72D0-AC50-4E82-84C5-39F349CADE36}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_Kick _Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="874103190"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A255E0E4-97DB-485A-8EE5-6C0F29B08687}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{47927FCF-B62A-4006-B09F-8FD912207420}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_Kick _Snare" ID="{C53929CC-62F0-4146-B6C4-A91812E0FAD9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_Kick _Snare" ID="{DC8C72D0-AC50-4E82-84C5-39F349CADE36}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{CEA819E8-4C2D-4436-880A-9A53D6A4D173}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{8B802B7B-E000-4EF3-ACFA-1FC6034CA0D5}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots1_Melody" ID="{D57FC8CE-5381-4B1D-AD43-66A849B3795B}" ShortID="623422746">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots1_Melody" ID="{4CB74D30-1F50-4DD9-A8CE-9666BEB6CBC2}" ShortID="367252068">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_Melody" ID="{EDF67C7B-2C84-4921-92AD-D28D66BDE09A}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="341021811"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9A77DF28-9AFC-4C9A-B755-20BCAB6278B4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{541E80DD-DF96-4F2A-9A3F-F5A616D15508}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_Melody" ID="{1AC1FC7B-CB71-41D9-A772-77ED46A520E8}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_Melody" ID="{EDF67C7B-2C84-4921-92AD-D28D66BDE09A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{3F77D3CE-1372-46EC-998E-4623ABB1D4CB}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F3BCBA35-78F9-42E6-9DA2-AD84A6BF0F27}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots1_Pad" ID="{517CA544-D366-4DEC-85D2-3959D3032BBF}" ShortID="81156324">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots1_Pad" ID="{6A0C4E00-42EC-4B65-A070-4B95D356231C}" ShortID="909667506">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_Pad" ID="{84A5E1ED-496D-483A-B8AC-A5F156744AC1}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="657044111"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D6A96D24-E9F0-4A90-96D5-FA76E3B6E525}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4A0A19BA-EF34-44AE-A969-A1CFDF94FC39}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_Pad" ID="{942399C0-4F4E-40C1-9324-D342D37CD253}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_Pad" ID="{84A5E1ED-496D-483A-B8AC-A5F156744AC1}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{58293EAD-7E32-4328-A994-0825CF538CCF}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{64531618-8623-41FE-A8DF-80D8EEFCDA2B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots1_Perc" ID="{37C5F587-2833-498E-94DD-BA84E0A47DBC}" ShortID="480295135">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots1_Perc" ID="{F243EC62-2E3E-4262-8F7E-546822850F20}" ShortID="430133098">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_Perc" ID="{641CF004-95D2-409E-8450-1BC6AFE719CA}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="7101357"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0B8CDE1A-B327-46AE-ADC5-4AD243B9090B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3120EEE7-C45E-44BA-8049-9915ECA7515F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_Perc" ID="{59164EEB-493C-439A-9A27-3FC423809395}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_Perc" ID="{641CF004-95D2-409E-8450-1BC6AFE719CA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{8D9F9358-1391-4E94-B899-D03ACC9D772D}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{8CE01F51-ECA9-4053-977B-C17333A5E3EF}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots2_BASS" ID="{81F4F9A7-1626-4F85-B15B-4C78251A643F}" ShortID="166248787">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots2_BASS" ID="{484AFC8C-B8F9-4E85-BD4B-C1A7C4B3C0D0}" ShortID="12860440">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots2_BASS" ID="{D41C4AAD-4541-479E-8CF2-924F41D01A75}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="491295400"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FF2A1DEB-4D0E-4C49-9459-66218458737B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{781F0FEB-9606-4896-A238-681428A108A9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_BASS" ID="{566E84AF-4C81-4301-BBFF-13B62BA3ACAE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_BASS" ID="{D41C4AAD-4541-479E-8CF2-924F41D01A75}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{D97BCD95-7CF8-4F1D-885E-081294D4CEAE}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{A2E0D9E9-4248-4C25-A82D-F704ED058102}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots2_Kick  Snare" ID="{6EDD4FD0-DAFB-4FC2-A303-5FB54657B86D}" ShortID="623556472">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots2_Kick  Snare" ID="{E88C42F9-F14E-4B2E-9404-1DBBAE4A12DD}" ShortID="627930424">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots2_Kick  Snare" ID="{3781AF64-E117-467B-993F-2923395ABFE8}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_Kick  Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="185652330"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{527A11AA-7055-4F71-B415-C542A49B18B1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{828B57DA-D2BF-44D9-8957-DCF610185D1B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_Kick  Snare" ID="{74CB3399-4B7F-4652-81C6-5F08CAF9D112}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_Kick  Snare" ID="{3781AF64-E117-467B-993F-2923395ABFE8}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{5F9977C2-2F07-43E0-A2B4-59B5642DC004}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{5078BF80-0BED-4D5C-9CA6-5CAC0DFC51E4}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots2_Melody" ID="{2247A09D-F3BD-4A95-9258-4B280DF0B084}" ShortID="401494380">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots2_Melody" ID="{A5FA7C73-1864-4B5E-BE71-4DECB650FB65}" ShortID="558845571">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots2_Melody" ID="{08C62D5F-1068-4CF9-9EA6-605B76D0EF34}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="679266981"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FF8BCAF6-1DCA-41F1-BB6A-8EE259A81652}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{76C452EA-EB28-4ED0-9694-8019A496DC60}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_Melody" ID="{A704788D-B507-4D3C-AE7B-8C8F3769E044}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_Melody" ID="{08C62D5F-1068-4CF9-9EA6-605B76D0EF34}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{B7DFC4DE-06F1-48BE-801D-DE9BF370C705}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F347A7D8-DDBA-4759-8465-40ABB118D81E}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots2_Pad" ID="{DF74569A-CF70-414F-9D25-85BBF996075E}" ShortID="945024968">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots2_Pad" ID="{8A9E83C8-CED3-404D-8441-8849239AC449}" ShortID="431763458">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots2_Pad" ID="{CED7271C-5020-41A2-94A0-DBD861119DE0}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="18374561"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CB2B29E7-F20A-4EAE-B78B-90AAF6948F69}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{542916A1-BDF8-4EF8-A9EC-0AEF571C5CF4}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_Pad" ID="{0C2C3131-3B86-4D78-8F0C-D6BD38856F19}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_Pad" ID="{CED7271C-5020-41A2-94A0-DBD861119DE0}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{F0181F1F-A7D0-4C7B-A5EE-89EF4404EE00}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{7120C164-F28A-4898-B90F-80A44668D33A}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots2_Perc" ID="{ED41B7DC-788D-47DD-9624-160B8921A615}" ShortID="223107664">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots2_Perc" ID="{94E8F752-49D0-4344-9A22-B3296FA69B70}" ShortID="427165871">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots2_Perc" ID="{2C6D01B0-4AEA-47FF-B18B-C63F2396B2E7}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="226756157"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{11F51966-841E-4A28-9557-C7ECEC8E651E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{AC03905C-48C4-4E79-8A51-D052CDC97370}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_Perc" ID="{9E9EFAED-880C-4054-BD08-4CC483DD0C61}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_Perc" ID="{2C6D01B0-4AEA-47FF-B18B-C63F2396B2E7}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{2CAFA1BC-D54E-4198-86D8-071BA31A7963}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{95920692-9E38-48F3-916C-63FCA3F4F907}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots3_Perc" ID="{42C86BA8-214D-46A1-9985-63D1E315E6EB}" ShortID="327506983">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots3_ Perc" ID="{B9EBAD6D-7728-4AA9-B723-12429FCB37E1}" ShortID="732291795">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots3_ Perc" ID="{33DDDF52-857C-4031-BBF4-AD0649C9BD5D}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_ Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="548441223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7C719292-5E85-4B2E-8853-B65073F24753}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{45EE4E78-BAFD-4A54-ABA0-BCB19860F410}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_ Perc" ID="{E016FD15-6C85-4B4B-A66A-2B317287DECD}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_ Perc" ID="{33DDDF52-857C-4031-BBF4-AD0649C9BD5D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{44827712-D88A-4E8D-ABAC-96CA3C01315B}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{40519ADC-897F-48D7-A1D4-9CBC64798D97}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots3_BASS" ID="{842B6C01-B532-42F0-8466-9D7156413774}" ShortID="624496845">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots3_BASS" ID="{2F6CA837-2322-46B1-B854-F523800A67A3}" ShortID="126141190">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots3_BASS" ID="{48C135D4-AE8A-402F-8A0F-EFDAD10A860D}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="836505904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A38EA33B-73FA-490E-8472-6D37250F1E41}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0038E9FD-FA39-4D40-9C07-766BB81A45C5}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_BASS" ID="{763002F1-A31A-4A57-A58D-944190231761}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_BASS" ID="{48C135D4-AE8A-402F-8A0F-EFDAD10A860D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{916B7E93-FF08-4AC5-B3C6-E93116756A96}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{EE1718D7-7CE9-4DE6-BC5B-DC4BCABDEAE5}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots3_Kick Snare" ID="{CB29B287-589A-41DE-8071-B109D0D7DBFC}" ShortID="653544123">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots3_Kick Snare" ID="{B64D84C7-9C74-4B11-8E53-F5468E3D9749}" ShortID="75440677">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots3_Kick Snare" ID="{166583FB-08BB-4911-A68D-C297BAB9E1BA}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_Kick Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="680202632"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1BCFD779-E4BB-4EFA-A9C9-D090607F00CA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B66A333E-E0E2-4A1F-91A3-0233FB1F6462}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_Kick Snare" ID="{4F96C0F5-C7E3-424F-8E5F-F30B10B45F48}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_Kick Snare" ID="{166583FB-08BB-4911-A68D-C297BAB9E1BA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{BB456DDA-945C-4022-8713-28651BE86935}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{7D2643AD-59C5-4276-ACE0-82C070A57A9D}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots3_Melody" ID="{56FC94A4-2BA3-4271-A4B0-ABA4AE1F8E75}" ShortID="638226321">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots3_Melody" ID="{B59A89BF-AED6-4B34-A4A2-F4CD138641BB}" ShortID="968091125">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots3_Melody" ID="{73195BBA-DEE7-4662-90A4-F544491997FB}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="305591645"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7AB087A6-93B1-4299-8597-46FE7A57C11A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{645A92A6-9E0B-4693-8B49-655C48F31B6D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_Melody" ID="{86E11FA9-5F9F-4DCA-89E9-28A738BF8EDA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_Melody" ID="{73195BBA-DEE7-4662-90A4-F544491997FB}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{6C76E205-9592-46AE-AFF1-C5455237AF51}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{77EDFD41-BA5A-4889-B00D-8B68B495C790}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Roots3_Pad" ID="{367DE6DD-957A-47E8-8248-97C364EF1D12}" ShortID="543159082">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Roots3_Pad" ID="{BC98616F-80D9-4D30-8299-E051CCC3B0CC}" ShortID="478801373">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots3_Pad" ID="{DDC10921-1E82-4F0C-AD90-0F85D480E8AB}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165059109"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A0A0C5F0-E2E5-40BE-AD43-A392CBD949A8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{75A00299-175C-4CC6-94ED-8C911B803EC2}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_Pad" ID="{CF49D600-19CB-4CB0-8E8A-83CDC7681E0F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_Pad" ID="{DDC10921-1E82-4F0C-AD90-0F85D480E8AB}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{F070A5D1-3FE7-41E0-8C0C-BF014D2A3165}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{405A6229-290F-45C8-9295-E29ABBA6EDA4}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa1_BASS" ID="{C00387F2-48E3-4C88-ACAF-5CB7A1FD1F3F}" ShortID="361303919">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa1_BASS" ID="{806EC10E-EE1D-4160-BCBF-719DC3ED78B3}" ShortID="324854777">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa1_BASS" ID="{1D669D40-74C0-420A-ACBC-DDFF8EB251C1}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa1_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="878772948"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DE3068BB-4BE0-4EBD-A7A6-16CB69DD889A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0EDD86E1-9522-4145-8F49-77438378D841}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_BASS" ID="{0926161C-7B56-461B-80B6-415DB31986C9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_BASS" ID="{1D669D40-74C0-420A-ACBC-DDFF8EB251C1}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{3322B1C3-5671-4F94-A8C6-77EE2AD99993}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{697021E0-1046-46D7-974E-C2D2E4F04ADD}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa1_KickSnare" ID="{ADDE8603-AB63-4B1A-9056-4874FBD94725}" ShortID="685766798">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa1_KickSnare" ID="{C3015E59-1CFC-4978-BD36-824D57D433B4}" ShortID="619945030">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa1_KickSnare" ID="{30266380-6589-40E5-8C92-53172997377C}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa1_KickSnare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217035390"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{46E4A5E8-3332-42DA-8392-C6919A8BE41D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CD4DCFBA-F9D8-4F15-8292-B4D21808D095}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_KickSnare" ID="{FAF245B0-6B58-41C6-8BE0-17254BBC701A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_KickSnare" ID="{30266380-6589-40E5-8C92-53172997377C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{735FF947-8EBB-43B1-8EA2-911F7560DA47}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{0C4B9C69-9AD3-4B86-9A9E-5B52BBB40400}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa1_Pad" ID="{AD2A1D40-7823-4B46-BF0D-C2D527E4A689}" ShortID="428329488">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa1_Pad" ID="{62B3B7B1-CD6A-4E38-BB24-03171E4E7FA3}" ShortID="1004326192">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa1_Pad" ID="{15365F3A-0D7E-4535-8DFB-A621F3B55BF8}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa1_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="199844202"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B544FA7D-2AE1-47D8-9BD9-4C5F667B992F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{02A0BB71-F326-43E8-A0EE-76F7872ECF14}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_Pad" ID="{3532EE8B-2DD8-47F4-BA6C-3DDD6054BAB5}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_Pad" ID="{15365F3A-0D7E-4535-8DFB-A621F3B55BF8}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{07017FCC-2FE5-45E2-ADCA-17E24E8EB549}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{21B080EB-B447-44B0-BC8A-0602ED15A160}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa1_Perc" ID="{29309E66-3209-4704-9314-7ADBB1DB06B6}" ShortID="252157005">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa1_Perc" ID="{AFFC334C-6D57-4788-AA04-6AE9E235D9F0}" ShortID="810470372">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa1_Perc" ID="{45FE1F2F-088D-437A-9958-474A3C916315}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa1_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="433540790"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AD946C8D-5D46-43F9-9665-B1D2F6EFE0D8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{2D76AF52-4FCD-44B7-91C0-C2FCE2390C49}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_Perc" ID="{9F3F0DC0-5468-4D6F-8472-63CC9ACA45AD}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_Perc" ID="{45FE1F2F-088D-437A-9958-474A3C916315}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{8120DAB6-7C23-403B-B2B3-ADB87C316AA1}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{CFA9144F-6910-43FE-AE58-86FEF0C8A36B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa2_BASS" ID="{B756AB58-F4C4-47F3-82CC-A4DE3475604E}" ShortID="174546976">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa2_BASS" ID="{63FCE385-775A-4076-81BA-2F7B23A43177}" ShortID="313502368">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa2_BASS" ID="{3F57C7E0-CD3F-4CC0-AB0E-2FB2AF9AE04D}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="695043101"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{405990F8-749E-4201-A5BF-EE0FE47D45E6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CE501394-E3FB-4177-B453-D2A8C07DA41B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_BASS" ID="{DEE8E7C9-EE6D-4F43-AF54-58C8CBA05917}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_BASS" ID="{3F57C7E0-CD3F-4CC0-AB0E-2FB2AF9AE04D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{E836F4D4-6603-43EF-8B7A-36AAE95DF1D9}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{2A3F50AF-D3E1-47CD-96D3-701AF46AFFCD}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa2_Kick Snare" ID="{9B184257-F6F3-4088-BBAA-BC4207C5D39D}" ShortID="625963243">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa2_Kick Snare" ID="{25D150A5-A318-45BE-996D-013C6F9B09AB}" ShortID="756737910">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa2_Kick Snare" ID="{7381B09B-04AC-4963-A3CB-82DB05C38802}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_Kick Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="378718405"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7C83A012-9604-40CE-81C2-1AA5AF61EF5E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{FE43BACB-41EC-4039-A82F-67223D70DF2F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_Kick Snare" ID="{319940C1-8D7F-4759-BEB6-F1B8F57F5AA6}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_Kick Snare" ID="{7381B09B-04AC-4963-A3CB-82DB05C38802}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{2087E7A5-BA98-4300-84F8-BA62374153B9}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{7445C2AE-129C-4099-A0FE-3D792C145ACC}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa2_Melody" ID="{19426266-0B7C-4172-BF0D-8C4D05421487}" ShortID="852636316">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa2_Melody" ID="{B93606B2-D311-47BC-8D45-EFF5448A24E1}" ShortID="226290184">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa2_Melody" ID="{28978D8A-96F8-4EB5-9446-3E4D218710DE}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1033567352"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F3DE8E55-CFEF-4CB9-94DA-EA6413EC4C21}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0D5931E9-D300-4562-AAF2-BAE4C7CB3FE9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_Melody" ID="{23B3B58D-AF9A-4E15-ACF4-BE0F3DBCD5DC}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_Melody" ID="{28978D8A-96F8-4EB5-9446-3E4D218710DE}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{25EB0217-C648-4B7E-A82B-3FFDA7CAA64B}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{009B2D58-EBA4-4142-B5DE-44E83C68CE76}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa2_Pad" ID="{261D081D-4A71-48E5-A9DD-3D41A6647BE3}" ShortID="459339163">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa2_Pad" ID="{39A602B1-FB8B-464A-A7B1-B3719383A745}" ShortID="1053867930">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa2_Pad" ID="{2516CBF5-70CD-4C77-9B13-280D795E3D0F}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="328578393"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{207B7B4F-E9F3-42AC-B25A-07F7CABA1A94}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A55FEB8A-3299-45D0-98F4-15AEEF7347D1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_Pad" ID="{26B4775A-ABDE-4D18-8DBC-FBEE05779C89}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_Pad" ID="{2516CBF5-70CD-4C77-9B13-280D795E3D0F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{1C5D7C30-5647-4A47-913C-AA20D5F2D09F}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{082912E0-0CE6-4A9F-A49D-520899AE7D37}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa2_Perc" ID="{8CBD66F9-8014-4619-AE05-3775870B29CC}" ShortID="222931291">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa2_Perc" ID="{18B17A0C-742F-44C0-AAF5-A6B70530EB67}" ShortID="194494813">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa2_Perc" ID="{28E3F8F1-37B8-41B0-AA59-250B19A2B2AF}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="458237889"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{01426134-A987-4A94-95FD-08A384671143}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F044AAB3-B857-4241-A934-AB759B97BF2F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_Perc" ID="{4C8A35D6-BE80-47C3-83DE-974010AF15B9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_Perc" ID="{28E3F8F1-37B8-41B0-AA59-250B19A2B2AF}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{C13C50FC-3491-44C2-BDCE-6E5CE43A3D66}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{5F719014-E01D-469B-A14B-B17DF1A9E894}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa3_BASS" ID="{5869E404-CF54-4CB5-A159-AF0726187807}" ShortID="364625684">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa3_BASS" ID="{340676EE-9F66-48D8-8DD3-0EBFF83ABCBB}" ShortID="370372439">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa3_BASS" ID="{46011C9B-9ACC-47F4-A755-C655DD4EAA3B}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162156353"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{12F81581-5A5D-4190-8EC6-199F5B82E270}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{AC8A98B8-6143-4D2B-821F-F84B2539853C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_BASS" ID="{BC2E9A14-D823-474B-9A9D-C74F51A3E8D5}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_BASS" ID="{46011C9B-9ACC-47F4-A755-C655DD4EAA3B}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{C3BDF7F4-5025-4AE3-83DF-B5F5C54CC278}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{E50EF2FD-7896-4B6D-8E06-06783B3FCAB7}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa3_Kick  Snare" ID="{BD00342B-31F4-48A8-9A99-285EB2F4A00D}" ShortID="565075579">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa3_Kick  Snare" ID="{EAEF8CE3-CD9F-4BA4-9059-81EFA655FD8C}" ShortID="570908162">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa3_Kick  Snare" ID="{98008B6D-55E9-4382-8E19-7CC74DEAA64D}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_Kick  Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="246251356"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A888D8AB-9EB4-47D3-9C0C-6E667A62E58F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{898FF887-C868-4A49-889F-F0414CDC3271}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_Kick  Snare" ID="{5F00C5D1-0A08-42D6-A259-7051A6CD9FDB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_Kick  Snare" ID="{98008B6D-55E9-4382-8E19-7CC74DEAA64D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{30773251-94D1-4111-B977-1F7323684821}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{2C0C1566-BDB8-404C-90DA-7C2DB89CD4E4}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa3_Melody" ID="{F90E29B0-BE5A-4A18-B3B8-18C658B41858}" ShortID="474993386">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa3_Melody" ID="{66E0E30C-C299-4CB0-8BF7-00A125FC352D}" ShortID="679228167">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa3_Melody" ID="{1F04C7E2-5638-4AD6-B6DE-814773D2C2F0}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="489004655"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FFDE5381-05A3-4F7C-B5BF-340E2012AAFF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1B469AE5-FB51-488B-86FD-7D29DEC5EEE6}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_Melody" ID="{7F2097B2-A0F9-4C2B-BBFF-53D25A99321D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_Melody" ID="{1F04C7E2-5638-4AD6-B6DE-814773D2C2F0}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{8BADDAE4-60D0-4787-8068-D5DFD3F89DEE}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{B473F302-EF8E-4170-A0EB-1E12DEACC6CD}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa3_Pad" ID="{6BC5D482-591D-4B90-A483-EDB8B56283E7}" ShortID="713600789">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa3_Pad" ID="{DAF6D909-B06E-49DE-9A04-F19CF7285FC1}" ShortID="105934728">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa3_Pad" ID="{E252CCA7-659B-487F-A91C-D0631DC5A401}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="377914049"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{ACA60638-1378-4F2A-B6AD-BF14B89EFC50}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C04D79F8-3B76-4304-85F9-E3FB275C8F72}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_Pad" ID="{7C0C8C0D-4B6D-4CA0-B06D-03781543B0EF}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_Pad" ID="{E252CCA7-659B-487F-A91C-D0631DC5A401}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{6DFBBA84-FEDD-41A3-9183-AEA96912BE66}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F41018C8-9578-432F-9558-2F7C3F995B01}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa3_Perc" ID="{B8856F01-85D4-4697-9871-6D11D68BF55F}" ShortID="384513689">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa3_Perc" ID="{C381FC1E-3B51-4EC9-ACF3-9910ED8F535A}" ShortID="993874560">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa3_Perc" ID="{49EE6C1D-B9F1-49F2-BE22-8A71A00F0375}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="657543568"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{02D84D82-07B6-451A-84C3-45357FBA2781}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4FE54BC7-A794-43D1-98E0-2D794DDE25D9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_Perc" ID="{22EF557A-1703-4344-BC26-838DC420B7A6}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_Perc" ID="{49EE6C1D-B9F1-49F2-BE22-8A71A00F0375}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{74ADEB02-BCAE-4636-BCD8-3F72DDD57677}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{2734C1E9-531F-4CBF-861A-5F4B74D18ADB}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="RootsWar_Steppa1_Melody" ID="{F5E4913F-0C94-43E4-A618-0F8E3F5E7F12}" ShortID="422564129">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="RootsWar_Steppa1_Melody" ID="{F59554FA-D777-4981-8834-724DAA8D7257}" ShortID="341053412">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Steppa1_Melody" ID="{093A4C4D-EE1B-482A-91A3-C8740B266AF2}">
+											<Language>SFX</Language>
+											<AudioFile>RootsWar_Steppa1_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="634657630"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4AC61B3B-8600-40B8-BC4B-10AE4B5294A1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{7B24CCEF-7876-475B-B51F-06FF10996BFB}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_Melody" ID="{5409C46B-058C-4A4F-B4DE-098364C5FA3B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_Melody" ID="{093A4C4D-EE1B-482A-91A3-C8740B266AF2}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{F5F1C671-C93A-457A-B64D-55B66461B879}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{07B29525-9B8F-4137-9100-F85FD55E41AB}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+				<MusicPlaylistContainer Name="Dubwars" ID="{5A4EF5CD-2BEE-4A1D-8373-4F7F47D0C5AB}" ShortID="1032006502">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Dubwars" ID="{F2097E26-C124-45C2-BB6F-17F20A98B917}" ShortID="1020175716">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12631.5833333333"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="55"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="76"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="2BASS" ID="{DBDFE20B-932F-492E-83A0-ADCAFAB29C1F}" ShortID="232541743">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Roots1" ID="{797A287E-CE75-4FB2-87AB-42534A5FA2EE}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="2Bass" ID="{114642BA-5E4A-4A1A-AF51-BFA938245687}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Music_Bass" ID="{7AD92070-C4B0-4F1B-8C33-AB9E9492E002}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_BASS" ID="{0CAF2F3F-EDEA-4EFC-A7F5-5C39C01346ED}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1066930189"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots2_BASS" ID="{F7375E40-6D33-47C4-80BF-E546F62DB159}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="491295400"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots3_BASS" ID="{E4CF2B99-BBEA-4D25-BEEB-7724D0D72220}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="836505904"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa1_BASS" ID="{5D83F2DB-BEDA-4CE3-BAD3-62A4CF8EA893}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa1_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="878772948"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa2_BASS" ID="{970D32AB-1D8C-4ADA-A437-6E11DD60CA49}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="695043101"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa3_BASS" ID="{47E09C40-2569-4C1E-A141-FE3CB6854D23}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162156353"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B91A461A-9E31-48F5-9253-40DF309CA958}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{3FFA27A1-4179-4889-A41D-66E1919FFA53}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{C8D30F62-5F57-406D-A873-9EFAAD0DDB2F}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{BB8C130B-C5BA-47F5-ADDD-8D312685CBEF}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{66DCA261-67FE-4ECB-B611-CEC836386B0F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_BASS" ID="{C18E0018-17D9-472B-AF79-1847D347622A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_BASS" ID="{0CAF2F3F-EDEA-4EFC-A7F5-5C39C01346ED}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots1" ID="{797A287E-CE75-4FB2-87AB-42534A5FA2EE}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{EA9A62D3-C747-4B1A-BB30-0170B7CC4CF9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_BASS" ID="{DA328BC8-A1C2-4143-A2D5-B1678FEE08F4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_BASS" ID="{F7375E40-6D33-47C4-80BF-E546F62DB159}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots2" ID="{F59DA35E-7813-4E8E-BC60-21299E582B68}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{73AEF2ED-A545-4AEC-AB59-E23B33181E93}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_BASS" ID="{5DF4C0BC-5B8D-4BF9-B332-CB0D391DF6D3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_BASS" ID="{E4CF2B99-BBEA-4D25-BEEB-7724D0D72220}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots3" ID="{A1D16273-ED1C-4A34-8E64-8C1259C85F8F}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B7AD9EE2-691F-4898-AC65-89CCDDB68780}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_BASS" ID="{321E6779-EE3B-4CE4-8907-84CEB967E92E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_BASS" ID="{5D83F2DB-BEDA-4CE3-BAD3-62A4CF8EA893}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa1" ID="{6B4FD9DD-682D-4AEF-B568-7C9980C3D6C9}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9E86E633-8F5A-45B6-A564-1026B049C5EA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_BASS" ID="{C7AC7A08-2F65-4882-B8DD-DCBF389C1260}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_BASS" ID="{970D32AB-1D8C-4ADA-A437-6E11DD60CA49}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa2" ID="{B92146AC-7E6C-4581-B111-1B9285A40C15}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{138C77F3-E38B-490A-9132-95520A287AFB}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_BASS" ID="{824BF22E-A928-490D-8662-5D26E693837F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_BASS" ID="{47E09C40-2569-4C1E-A141-FE3CB6854D23}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa3" ID="{5EC255DD-E9F8-4EF0-ACD4-8977076868C5}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="1KickSnare" ID="{E56F3B7C-303D-4251-971D-3EFCDB120286}" ShortID="967488830">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{AA2CA5F6-2CA0-47E3-AE87-29E13ED17274}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="1Kick" ID="{8AEE8295-443A-4232-BCDB-F90BB70E2E1B}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Music_KickSnare" ID="{2C30179C-D804-44E4-A5B7-8D2E77A82997}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_Kick _Snare" ID="{0377CFD3-09BC-4EB5-A8E1-76F50EF131E9}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_Kick _Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="874103190"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots2_Kick  Snare" ID="{38682C72-BD85-4ACE-B071-6FC5E1EDCC63}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_Kick  Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="185652330"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots3_Kick Snare" ID="{02E8B434-34F5-4E32-8CD1-5A1C10E6419E}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_Kick Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="680202632"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa1_KickSnare" ID="{3E591EAE-C2A3-460E-9E2E-F12B1DB2F338}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa1_KickSnare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217035390"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa3_Kick  Snare" ID="{9DD8DF75-CBB2-43F8-BF34-BCF197BA0FFF}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_Kick  Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="246251356"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa2_Kick Snare" ID="{DB9EE771-516F-4A38-BC72-9B9F81EF9180}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_Kick Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="378718405"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5D241F1B-4FC0-4E1C-ADA3-92958F3A7CD4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{9CB7627A-F1B4-4DC6-B914-2166021B7F1B}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{3F26A2BC-FECE-4AB8-9BCA-BDB2587E38F2}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{E532AC4E-85BA-4193-9689-34DCB228E457}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{FF945D8E-C642-405A-B099-98B23D624199}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_Kick _Snare" ID="{9FA699F0-7C9F-4525-B96D-0FC237186E45}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_Kick _Snare" ID="{0377CFD3-09BC-4EB5-A8E1-76F50EF131E9}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots1" ID="{F3CBACAF-4216-44A9-958C-215E8C0BDAFE}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{00CDB7F0-E97F-4850-ABE3-4B58CE7D828A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_Kick  Snare" ID="{1AF5E111-B403-4AA2-973D-E32BEAE2A2A2}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_Kick  Snare" ID="{38682C72-BD85-4ACE-B071-6FC5E1EDCC63}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots2" ID="{658994EE-10E0-4500-B8EE-38638F66C403}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0BDC2466-8507-4D5A-9371-1ED0B32E5699}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_Kick Snare" ID="{384ECF42-619D-4283-967B-A4D509E6013F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_Kick Snare" ID="{02E8B434-34F5-4E32-8CD1-5A1C10E6419E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots3" ID="{A938068A-0905-4D6C-8341-47FB7F7F519A}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B8C18346-EE1D-41CF-8028-B614A48C73D6}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_KickSnare" ID="{90F91181-EF05-4A85-9AE0-702FEAB24004}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_KickSnare" ID="{3E591EAE-C2A3-460E-9E2E-F12B1DB2F338}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa1" ID="{9BA6A3AF-00F5-4E42-B287-50315EE7518D}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B0CFF59C-2148-4F21-A123-A8D8FBD864EF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_Kick Snare" ID="{09A7538E-F3C5-4B42-8AED-21F474A46D9F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_Kick Snare" ID="{DB9EE771-516F-4A38-BC72-9B9F81EF9180}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa2" ID="{670754C9-3559-407B-97FE-C05D13825476}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{ADBA6409-8C88-4814-9AA6-95C96F1AECAF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_Kick  Snare" ID="{0D15017E-39BA-4F44-B248-5090AF9358AC}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_Kick  Snare" ID="{9DD8DF75-CBB2-43F8-BF34-BCF197BA0FFF}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa3" ID="{F41EEF27-575E-4D90-9E9A-98E8A4265EB5}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="3Perc" ID="{A5FD0286-572A-4A33-BF6A-97F602C16A5F}" ShortID="630623159">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{0D83D2A3-8284-4308-94AD-BFAB483B68A4}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3Perc" ID="{16B13484-19F5-4406-8AAD-ED3EE860DD3E}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Music_Perc" ID="{6854B6BC-3D93-4E8D-9943-777D8F2E66C7}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_Perc" ID="{5D455A12-5C25-4ECD-A096-64E9876C808D}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="7101357"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots3_ Perc" ID="{F0319CB8-F5A3-4CCD-BC78-1EA7029EB61E}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_ Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="548441223"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots2_Perc" ID="{724A894A-D592-4476-A0C9-56B8E05431CE}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="226756157"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa1_Perc" ID="{BF95B72C-2107-4EBE-ABA2-792CBF6A7924}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa1_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="433540790"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa3_Perc" ID="{8A1AFEEC-FE9E-4B75-B049-7AB038CA33BA}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="657543568"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa2_Perc" ID="{C71FDE53-41A7-4DA8-B007-D3A59F8A84FB}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_Perc.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="458237889"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D5E90952-4080-4CCD-9D17-51E9A58BE0EA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{FC143CC5-3F1F-4A14-83B7-0F282DF06E84}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{5E2E9E78-A642-4615-878A-E671B4C9D682}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{2C082878-FBFD-43FD-9171-9925B0EFA51F}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{720869F3-7662-41C1-977A-6EC5A68320BE}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_Perc" ID="{4F2E5E0C-B26C-41E4-A28E-144616ECD383}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_Perc" ID="{5D455A12-5C25-4ECD-A096-64E9876C808D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots1" ID="{D43655AC-3882-44AE-BBC1-053FA4468CAA}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{9263B0F1-C727-434F-A59F-2B5A2B29343E}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_Perc" ID="{D06B5450-FA57-4560-9D1D-EA59415A749C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_Perc" ID="{724A894A-D592-4476-A0C9-56B8E05431CE}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots2" ID="{9CA28E63-E093-41AA-86F2-9BCF27FE88F5}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{655E86A6-8932-423D-80EC-1096BB15A2DD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_ Perc" ID="{F7B026E6-FFFF-466D-B7D5-56628621FB8B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_ Perc" ID="{F0319CB8-F5A3-4CCD-BC78-1EA7029EB61E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots3" ID="{06388F28-5FC8-4E74-862C-20F379DA105B}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{6E671F49-444D-417B-8855-1CE9A4B1B3C1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_Perc" ID="{54F57635-66FC-4657-B9C6-1D172AA04DEF}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_Perc" ID="{BF95B72C-2107-4EBE-ABA2-792CBF6A7924}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa1" ID="{DB4388D7-5FF9-4ED1-BF8B-91993EBCFA78}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{AB916052-FEBA-45A2-BBF0-1601DB107D26}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_Perc" ID="{11CEDF33-E8FB-49F2-8067-501A9B39C8E1}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_Perc" ID="{C71FDE53-41A7-4DA8-B007-D3A59F8A84FB}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa2" ID="{6C65498B-34C7-4FE4-92F5-6F398373939B}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{33062D16-E1AB-4E3A-957F-98996376EDA9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_Perc" ID="{98DCCE40-7E9A-48F7-8F69-5EFA34DCBA59}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_Perc" ID="{8A1AFEEC-FE9E-4B75-B049-7AB038CA33BA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa3" ID="{1EE65BEA-A814-4EBA-B22B-6C00F3B5F5A4}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="4Melody" ID="{738510D7-C58C-41EF-B7D9-BE163D3D3138}" ShortID="356109626">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{CE78CC3C-4FF4-45D3-B81D-99A3EA924F2D}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="4Melody" ID="{BC1075D8-0907-4A10-BDE0-2099864516ED}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Music_Melody" ID="{887F9B1F-DBB7-4B8E-A714-FC1449E95841}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_Melody" ID="{A18BA371-A8E0-403E-BBA7-FBDC57FFFAB2}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="341021811"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa2_Melody" ID="{16206B0E-4705-4349-95A7-3AFFC6CD0A15}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1033567352"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa1_Melody" ID="{B5ABDE07-B5C7-461D-B5AB-C95B3DB37BAF}">
+											<Language>SFX</Language>
+											<AudioFile>RootsWar_Steppa1_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="634657630"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa3_Melody" ID="{F4D14A69-6178-4857-9D11-D4FFA5ACAA56}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="489004655"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots2_Melody" ID="{F4D0890B-5D9C-4A0F-8BF6-73BC8F25EFD1}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="679266981"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots3_Melody" ID="{C3EF88E1-2AFB-433C-B377-7109E588EDD9}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_Melody.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="305591645"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CE295470-237B-4B7A-9FA1-3FFBB780B4B4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{64436C35-D15D-47D1-8A53-6D38163AD3D9}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{88FB00D0-038B-460A-9ABB-EAB17D9791F3}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{9F90EEE8-A45B-411C-A5D1-802F63C64E30}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D76C981A-38DC-485E-B726-B45CC6653215}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_Melody" ID="{699E6EF4-C88D-4466-AB8F-4E92300F70AB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_Melody" ID="{A18BA371-A8E0-403E-BBA7-FBDC57FFFAB2}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots1" ID="{BCC6FAEB-6029-4714-9801-6B7F88EBB4F6}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{563CB574-993C-411C-87F9-32E705656469}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_Melody" ID="{60664000-7C57-444D-96F7-054C2D236F4A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_Melody" ID="{F4D0890B-5D9C-4A0F-8BF6-73BC8F25EFD1}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots2" ID="{B86B9711-A9BC-4D53-B8CA-3193ECE40990}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0AC5D2DB-FF11-41F3-9830-5438C1AE667B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_Melody" ID="{827C88BB-1D99-4B93-B8EC-22AF16B42377}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_Melody" ID="{C3EF88E1-2AFB-433C-B377-7109E588EDD9}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots3" ID="{AA8D29A0-6CD8-4209-9477-E653E631A292}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3F07C72E-3898-4D7F-A079-CB140B333956}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_Melody" ID="{5F718350-DD62-4971-9076-F64FBCA606C4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_Melody" ID="{B5ABDE07-B5C7-461D-B5AB-C95B3DB37BAF}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa1" ID="{226959B5-7479-46A8-8D10-08D429C867C0}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B23957C3-E4E8-4543-A734-79A4E3377A9C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_Melody" ID="{4B3353F9-98EA-4F64-B7FB-E81AEEC481C3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_Melody" ID="{16206B0E-4705-4349-95A7-3AFFC6CD0A15}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa2" ID="{EAC700FC-676A-470B-97FB-A33EBD2C2E5B}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{D54973ED-B90D-4F85-80C5-878D2C656CDA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_Melody" ID="{1653909B-F874-4E2F-ACCE-399022CFF22B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_Melody" ID="{F4D14A69-6178-4857-9D11-D4FFA5ACAA56}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa3" ID="{8E26A79B-26D2-4480-A693-E252ED16592C}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="5Pad" ID="{32637D8D-B3CF-4540-BA0C-785AA439920B}" ShortID="428832210">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C3359E6-F059-4419-B547-5F7CC1A0F99C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{EE4ED2C7-478A-4FB1-8E3D-618E12FA0C7F}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="5Pad" ID="{FCE26E92-11A7-44B2-9319-88F5923BF38C}" WorkUnitID="{1D3438CB-7241-4F44-85D1-A764D646C474}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Music_Pad" ID="{A9EA6F26-DCD9-4900-8084-50BC08D81DF5}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RootsWar_Roots1_Pad" ID="{39CF8B86-4A46-49AD-9822-5FD52A26A33A}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots1_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="657044111"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots2_Pad" ID="{EBA175E2-8CEB-4A93-83CD-983C65E81904}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots2_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="18374561"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Roots3_Pad" ID="{C064ACC0-D8E0-488C-9D32-4C955E12E790}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Roots3_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165059109"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa1_Pad" ID="{7432428D-2843-42F7-B477-29B14373790F}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa1_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="199844202"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa2_Pad" ID="{D71BA083-BD65-4D6B-A5BB-0EA42A3EEB54}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa2_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="328578393"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="RootsWar_Steppa3_Pad" ID="{67014878-C648-4E84-8361-DEC9FC419795}">
+											<Language>SFX</Language>
+											<AudioFile>Music\RootsWar_Steppa3_Pad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="377914049"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{040606DC-196D-4AC9-B4F5-E410DB73C4E3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{8CDA5D48-5B85-4066-94A5-054B4BA1DC68}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{E1473346-9B8B-41C5-B027-E178156E3788}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{83645A37-3C23-49A6-995E-B831F0B3B22A}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{7A5A5F0D-325D-47F8-BE0D-DDCEA34D5ECF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots1_Pad" ID="{5DC831BD-5F87-40A4-80CF-619BDC6B3EEF}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots1_Pad" ID="{39CF8B86-4A46-49AD-9822-5FD52A26A33A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots1" ID="{9CA2D110-A251-4CFE-96D0-77949D59C038}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{EAA3AA93-1EC9-4E9C-AFF5-29D67017F4FF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots2_Pad" ID="{DC6751B8-3087-45CB-BDE4-D7DDB138BA5F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots2_Pad" ID="{EBA175E2-8CEB-4A93-83CD-983C65E81904}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots2" ID="{3958D11C-F905-4198-BF14-57517448FEB3}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{7013B59D-B378-4400-AD5A-63C56B916D34}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Roots3_Pad" ID="{BEDE4E1F-9593-4371-8A5B-33428A3264A3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Roots3_Pad" ID="{C064ACC0-D8E0-488C-9D32-4C955E12E790}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Roots3" ID="{675E5CD5-3862-42B3-BD32-B289448D3664}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E80AE26E-3EA0-4741-93CA-1A0FD5E73218}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa1_Pad" ID="{D4CC2848-6817-4C63-9B7B-4C8912F1F700}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa1_Pad" ID="{7432428D-2843-42F7-B477-29B14373790F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa1" ID="{081EDC66-A2CB-463B-A7E6-7DD495420C2D}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F2B66BE5-CB6D-4441-B7C6-8D4CD48C4E9B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa2_Pad" ID="{485F35AE-D8FA-4DB1-A3A9-8DE4FE66497E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa2_Pad" ID="{D71BA083-BD65-4D6B-A5BB-0EA42A3EEB54}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa2" ID="{80C4EB28-DD76-415F-891A-9184704E48BE}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F5F1D52D-2CA8-48C6-B1CB-A5F151F9F08D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="RootsWar_Steppa3_Pad" ID="{B1BFC84F-BFD0-4BDB-A50F-DC6C929D3BF3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12631.5833333333"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="RootsWar_Steppa3_Pad" ID="{67014878-C648-4E84-8361-DEC9FC419795}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Steppa3" ID="{DB111600-BB11-4A0E-98BA-552106B7F9BA}" WorkUnitID="{D4D1201F-6E5C-4C6F-9A9A-E30E2530AA5E}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{ADA7313E-D7D4-4CD1-BCD1-AA0E91E110FE}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{B9FB7371-44E1-4DDD-A88D-F855134F619C}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12631.5833333333"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{0007B6BC-2109-4FB6-89BA-E11DCC23C710}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{1731AFE1-8C4B-4835-B0C2-C4CF064ACD1F}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{2F5D400B-ACEA-4FB3-8647-F03C8CD2382A}" ShortID="765929483">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{FB3DDB61-672E-47D3-8E93-F989059DC1EA}" ShortID="369598130">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Dubwars" ID="{F2097E26-C124-45C2-BB6F-17F20A98B917}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
